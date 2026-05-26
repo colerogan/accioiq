@@ -30,7 +30,7 @@ function Team() {
     {
       name: 'Cole Rogan',
       role: 'Associate',
-      short: 'Skidmore '26 grad. Built CoachCole — AccioIQ\'s first product, used by NCAA D1–D3 soccer programs.',
+      short: "Skidmore '26 grad. Built CoachCole — AccioIQ's first product, used by NCAA D1–D3 soccer programs.",
       bio: 'Cole leads lab engagements at AccioIQ. A May 2026 Skidmore College graduate, he brings over a year of professional AI consulting experience at Selective Insurance, where he developed tools that have saved teams thousands of hours of repetitive work. Cole also built CoachCole — AccioIQ\'s first product — an elite NCAA soccer scouting tool actively used by head coaches competing in Divisions 1, 2, and 3. He\'s the partner who spends the most time inside the workflow, co-designing tools that feel native by the time they ship.',
       initials: 'CR',
       stats: [

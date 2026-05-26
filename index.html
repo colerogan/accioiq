@@ -27,46 +27,42 @@
 
 <script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
-<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
 
-<script type="text/babel" src="src/responsive.jsx"></script>
-<script type="text/babel" src="src/Nav.jsx"></script>
-<script type="text/babel" src="src/Hero.jsx"></script>
-<script type="text/babel" src="src/Philosophy.jsx"></script>
-<script type="text/babel" src="src/Method.jsx"></script>
-<script type="text/babel" src="src/Registers.jsx"></script>
-<script type="text/babel" src="src/Beliefs.jsx"></script>
-<script type="text/babel" src="src/Cases.jsx"></script>
-<script type="text/babel" src="src/Clients.jsx"></script>
-<script type="text/babel" src="src/Team.jsx"></script>
-<script type="text/babel" src="src/Contact.jsx"></script>
-<script type="text/babel" src="src/Footer.jsx"></script>
-<script type="text/babel" src="src/Tweaks.jsx"></script>
+<script src="dist/responsive.js"></script>
+<script src="dist/Nav.js"></script>
+<script src="dist/Hero.js"></script>
+<script src="dist/Philosophy.js"></script>
+<script src="dist/Method.js"></script>
+<script src="dist/Registers.js"></script>
+<script src="dist/Beliefs.js"></script>
+<script src="dist/Cases.js"></script>
+<script src="dist/Clients.js"></script>
+<script src="dist/Team.js"></script>
+<script src="dist/Contact.js"></script>
+<script src="dist/Footer.js"></script>
+<script src="dist/Tweaks.js"></script>
 
-<script type="text/babel">
+<script>
 function App() {
   const [state, setState] = React.useState(window.__AQ_TWEAKS__);
-  return (
-    <div data-screen-label="AccioIQ Homepage">
-      <Nav />
-      <Hero accent={state.heroAccent} />
-      <Philosophy />
-      <Method darkBg={state.darkBg} />
-      <Registers />
-      <Beliefs darkBg={state.darkBg} />
-      <Cases layout={state.casesLayout} />
-      <Clients darkBg={state.darkBg} />
-      <Team />
-      <Contact darkBg={state.darkBg} />
-      <Footer />
-      <Tweaks state={state} setState={setState} />
-    </div>
+  const h = React.createElement;
+  return h('div', {'data-screen-label': 'AccioIQ Homepage'},
+    h(Nav),
+    h(Hero, {accent: state.heroAccent}),
+    h(Philosophy),
+    h(Method, {darkBg: state.darkBg}),
+    h(Registers),
+    h(Beliefs, {darkBg: state.darkBg}),
+    h(Cases, {layout: state.casesLayout}),
+    h(Clients, {darkBg: state.darkBg}),
+    h(Team),
+    h(Contact, {darkBg: state.darkBg}),
+    h(Footer),
+    h(Tweaks, {state, setState})
   );
 }
 
-setTimeout(() => {
-  ReactDOM.createRoot(document.getElementById('app')).render(<App />);
-}, 1500);
+ReactDOM.createRoot(document.getElementById('app')).render(React.createElement(App));
 </script>
 </body>
 </html>
