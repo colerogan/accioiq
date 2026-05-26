@@ -1,0 +1,409 @@
+/* =============================================================
+   AccioIQ — Colors, Type, Tokens
+   "AI from the inside out."
+   Source: AccioIQ Brand Identity & Positioning, v6, Feb 2026
+   ============================================================= */
+
+/* ---- Fonts -------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  /* ---- Color tokens (raw) ---- */
+  --aq-deep:       #0B1C12;   /* primary dark surface, nav, hero */
+  --aq-forest:     #163824;   /* secondary dark, section bg */
+  --aq-teal:       #5ECBA1;   /* accent on dark — IQ, CTAs */
+  --aq-teal-dark:  #3DA882;   /* accent on light */
+  --aq-teal-press: #2E8B6A;   /* pressed/deeper teal */
+  --aq-parchment:  #F5F7F4;   /* page background */
+  --aq-white:      #FFFFFF;
+  --aq-sage:       #6A9E80;   /* body on dark, labels */
+  --aq-slate:      #3D5448;   /* body on light */
+  --aq-rule:       #D8E4DC;   /* dividers, borders */
+  --aq-rule-deep:  #BCCFC3;   /* hover/darker rule on light */
+  --aq-rule-dark:  rgba(216, 228, 220, 0.18); /* rules on Deep */
+
+  /* ---- Semantic roles (light surface is default) ---- */
+  --bg:            var(--aq-parchment);
+  --bg-raised:     var(--aq-white);
+  --fg:            var(--aq-deep);
+  --fg-muted:      var(--aq-slate);
+  --fg-soft:       var(--aq-sage);
+  --rule:          var(--aq-rule);
+  --accent:        var(--aq-teal-dark);
+  --accent-press:  var(--aq-teal-press);
+  --focus:         var(--aq-teal-dark);
+
+  /* ---- Type families ---- */
+  --font-display:  'Lora', Georgia, 'Times New Roman', serif;
+  --font-body:     'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono:     ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* ---- Type scale ---- */
+  --fs-display:     64px;   /* Lora 400 */
+  --fs-h1:          48px;
+  --fs-h2:          36px;
+  --fs-h3:          24px;
+  --fs-h4:          18px;
+  --fs-body-lg:     18px;   /* Poppins 300 */
+  --fs-body:        16px;
+  --fs-body-sm:     14px;
+  --fs-caption:     12px;
+  --fs-eyebrow:     11px;
+
+  /* ---- Line heights ---- */
+  --lh-display:     1.05;
+  --lh-heading:     1.15;
+  --lh-body:        1.55;
+  --lh-tight:       1.25;
+
+  /* ---- Letter spacing ---- */
+  --ls-display:     -0.01em;
+  --ls-heading:     -0.005em;
+  --ls-body:        0;
+  --ls-tracked:     0.16em;  /* caps labels */
+  --ls-tracked-wide:0.22em;  /* page headers / nav */
+
+  /* ---- Spacing (8px base) ---- */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+  --space-7:  40px;
+  --space-8:  56px;
+  --space-9:  80px;
+  --space-10: 96px;
+  --space-11: 128px;
+
+  /* ---- Radii (sharp brand) ---- */
+  --radius-0:    0;
+  --radius-sm:   2px;   /* buttons */
+  --radius-md:   4px;
+  --radius-pill: 999px; /* tags only */
+
+  /* ---- Borders ---- */
+  --border-w:    1px;
+  --border:      1px solid var(--rule);
+  --border-dark: 1px solid var(--aq-rule-dark);
+
+  /* ---- Shadows (used sparingly) ---- */
+  --shadow-menu: 0 8px 24px rgba(11, 28, 18, 0.08);
+  --shadow-none: none;
+
+  /* ---- Motion ---- */
+  --ease-out:    cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast:    160ms;
+  --dur:         320ms;
+  --dur-slow:    480ms;
+
+  /* ---- Layout ---- */
+  --max-content: 1200px;
+  --max-text:    680px;
+  --gutter:      24px;
+  --page-pad:    40px;
+}
+
+/* ---- Dark surface override ----
+   Apply .aq-on-dark to a section to swap semantic roles. */
+.aq-on-dark {
+  --bg:         var(--aq-deep);
+  --bg-raised:  var(--aq-forest);
+  --fg:         var(--aq-parchment);
+  --fg-muted:   var(--aq-sage);
+  --fg-soft:    var(--aq-sage);
+  --rule:       var(--aq-rule-dark);
+  --accent:     var(--aq-teal);
+  --accent-press: var(--aq-teal-dark);
+  --focus:      var(--aq-teal);
+  color: var(--fg);
+  background: var(--bg);
+}
+
+/* =============================================================
+   Base / reset
+   ============================================================= */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--fg);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* =============================================================
+   Typography — semantic classes
+   ============================================================= */
+
+.aq-display, h1.aq-display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--fs-display);
+  line-height: var(--lh-display);
+  letter-spacing: var(--ls-display);
+  color: var(--fg);
+  margin: 0;
+}
+.aq-display--italic { font-style: italic; }
+
+.aq-h1, h1 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--fs-h1);
+  line-height: var(--lh-heading);
+  letter-spacing: var(--ls-heading);
+  color: var(--fg);
+  margin: 0;
+}
+
+.aq-h2, h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--fs-h2);
+  line-height: var(--lh-heading);
+  letter-spacing: var(--ls-heading);
+  color: var(--fg);
+  margin: 0;
+}
+
+.aq-h3, h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--fs-h3);
+  line-height: var(--lh-tight);
+  color: var(--fg);
+  margin: 0;
+}
+
+.aq-h4, h4 {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: var(--fs-h4);
+  line-height: var(--lh-tight);
+  color: var(--fg);
+  margin: 0;
+}
+
+.aq-body-lg {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: var(--fs-body-lg);
+  line-height: var(--lh-body);
+  color: var(--fg-muted);
+}
+
+.aq-body, p {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--fg-muted);
+  margin: 0 0 1em 0;
+}
+
+.aq-body-sm, small {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: var(--fs-body-sm);
+  line-height: var(--lh-body);
+  color: var(--fg-muted);
+}
+
+.aq-caption {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: var(--fs-caption);
+  color: var(--fg-soft);
+  line-height: var(--lh-body);
+}
+
+/* Tracked uppercase labels — the brand's signature label style */
+.aq-eyebrow,
+.aq-label {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--fs-eyebrow);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-tracked);
+  color: var(--fg-soft);
+  line-height: 1.2;
+}
+.aq-label--accent { color: var(--accent); }
+
+.aq-pullquote {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 34px;
+  line-height: 1.25;
+  color: var(--fg);
+  letter-spacing: var(--ls-heading);
+  max-width: 22ch;
+  margin: 0;
+}
+
+/* =============================================================
+   Core components — rules, buttons, tags
+   ============================================================= */
+
+.aq-rule {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 0;
+}
+
+/* Buttons */
+.aq-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: var(--fs-eyebrow);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-tracked);
+  padding: 14px 22px;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color var(--dur) var(--ease-out),
+              color var(--dur) var(--ease-out),
+              border-color var(--dur) var(--ease-out),
+              opacity var(--dur-fast) var(--ease-out);
+}
+.aq-btn:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.aq-btn:active { opacity: 0.85; }
+
+/* Primary — teal fill, Deep text */
+.aq-btn--primary {
+  background: var(--accent);
+  color: var(--aq-deep);
+  border-color: var(--accent);
+}
+.aq-btn--primary:hover { background: var(--accent-press); border-color: var(--accent-press); }
+
+/* Ghost / secondary — outlined */
+.aq-btn--ghost {
+  background: transparent;
+  color: var(--fg);
+  border-color: var(--rule);
+}
+.aq-btn--ghost:hover { border-color: currentColor; }
+
+/* Link-style button */
+.aq-btn--link {
+  background: transparent;
+  color: var(--fg);
+  border-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
+}
+.aq-btn--link:hover { color: var(--accent); }
+
+/* Tags / pills */
+.aq-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--rule);
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: var(--ls-tracked);
+  color: var(--fg-muted);
+  background: transparent;
+}
+.aq-tag--filled {
+  background: var(--aq-forest);
+  color: var(--aq-sage);
+  border-color: transparent;
+}
+.aq-tag--accent {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* Cards */
+.aq-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-sm);
+  padding: var(--space-7);
+  transition: border-color var(--dur) var(--ease-out);
+}
+.aq-card:hover { border-color: var(--aq-rule-deep); }
+.aq-on-dark .aq-card:hover { border-color: var(--aq-sage); }
+
+/* Service card number */
+.aq-card__number {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: var(--space-6);
+  display: block;
+}
+
+/* Nav link */
+.aq-nav-link {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: var(--ls-tracked-wide);
+  color: var(--fg);
+  text-decoration: none;
+  padding: 8px 0;
+  transition: color var(--dur) var(--ease-out);
+}
+.aq-nav-link:hover { color: var(--accent); }
+
+/* Form field */
+.aq-field {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: var(--fs-body);
+  color: var(--fg);
+  background: var(--bg-raised);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  width: 100%;
+  transition: border-color var(--dur) var(--ease-out);
+}
+.aq-field::placeholder { color: var(--fg-soft); }
+.aq-field:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+/* Helper */
+.aq-container {
+  max-width: var(--max-content);
+  margin: 0 auto;
+  padding: 0 var(--page-pad);
+}
+@media (max-width: 720px) {
+  .aq-container { padding: 0 var(--gutter); }
+  :root {
+    --fs-display: 44px;
+    --fs-h1: 36px;
+    --fs-h2: 28px;
+  }
+}
