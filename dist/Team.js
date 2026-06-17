@@ -1,4 +1,4 @@
-var __unused__ = (() => {
+(() => {
   function Team() {
     const [active, setActive] = React.useState(1);
     const isMobile = useIsMobile();
@@ -28,18 +28,6 @@ var __unused__ = (() => {
         ]
       },
       {
-        name: "Cole Rogan",
-        role: "Associate",
-        short: "Skidmore '26 grad. Built CoachCole \u2014 AccioIQ's first product, used by NCAA D1\u2013D3 soccer programs.",
-        bio: "Cole is deeply involved in client engagements at AccioIQ. A May 2026 Skidmore College graduate, he brings over a year of professional AI consulting experience at Selective Insurance \u2014 a large insurance company \u2014 where he examined internal workflows, built AI agents, and served as a prompt engineer to create tools that have saved teams thousands of hours of repetitive work. Cole also built CoachCole \u2014 AccioIQ's first product \u2014 an elite NCAA soccer scouting tool actively used by head coaches competing in Divisions 1, 2, and 3. He uses his expertise to contribute to AI solutions that feel clear and native by the time they ship.",
-        initials: "CR",
-        stats: [
-          { n: "1,000s", b: "Of hours of repetitive work eliminated for teams at Selective Insurance." },
-          { n: "CoachCole", b: "Built AccioIQ\u2019s first product \u2014 a scouting tool used across NCAA D1\u2013D3 soccer." },
-          { n: "Skidmore \u201926", b: "Recent graduate; over a year of professional AI consulting experience." }
-        ]
-      },
-      {
         name: "Sean Craine",
         role: "VP of Strategic Partnerships",
         short: "Nearly two decades of commercial leadership in life sciences. Harvard Business School General Management Program. Bridges science, strategy, and AI.",
@@ -49,6 +37,18 @@ var __unused__ = (() => {
           { n: "20 yrs", b: "Senior commercial leadership in life sciences and biopharma." },
           { n: "HBS", b: "Harvard Business School General Management Program \u2014 digital strategy and finance." },
           { n: "UVM", b: "B.S. in Biology, University of Vermont." }
+        ]
+      },
+      {
+        name: "Cole Rogan",
+        role: "Associate",
+        short: "Skidmore '26 grad. Built CoachCole \u2014 AccioIQ's first product, used by NCAA D1-D3 soccer programs.",
+        bio: "Cole is deeply involved in client engagements at AccioIQ. A May 2026 Skidmore College graduate, he brings over a year of professional AI consulting experience at Selective Insurance \u2014 a large insurance company \u2014 where he examined internal workflows, built AI agents, and served as a prompt engineer to create tools that have saved teams thousands of hours of repetitive work. Cole also built CoachCole \u2014 AccioIQ's first product \u2014 an elite NCAA soccer scouting tool actively used by head coaches competing in Divisions 1, 2, and 3. He uses his expertise to contribute to AI solutions that feel clear and native by the time they ship.",
+        initials: "CR",
+        stats: [
+          { n: "1,000s", b: "Of hours of repetitive work eliminated for teams at Selective Insurance." },
+          { n: "CoachCole", b: "Built AccioIQ's first product \u2014 a scouting tool used across NCAA D1-D3 soccer." },
+          { n: "Skidmore '26", b: "Recent graduate; over a year of professional AI consulting experience." }
         ]
       },
       {

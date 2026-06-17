@@ -1,4 +1,4 @@
-// Team.jsx — Partners, with expanded bio for Kris Covey
+// Team.jsx
 function Team() {
   const [active, setActive] = React.useState(1); // Kris default
   const isMobile = useIsMobile();
@@ -7,7 +7,7 @@ function Team() {
       name: 'Matt Lucas',
       role: 'Co-Founder & Partner',
       short: 'Generative AI subject expert. Vice Chair for AI Strategy at Skidmore. Former global executive at Bose, Samsung, Coty.',
-      bio: 'Matt is a Co-Founder of AccioIQ and a generative-AI subject expert who translates frontier capability into commercial outcomes. He serves as Professor of Business and Vice Chair for AI Strategy at Skidmore College, where he holds the F. William Harder Chair of Business Administration and teaches Foundations with Generative AI and AI-Powered Selling. Matt brings two decades of senior executive leadership at global consumer brands — Global VP of Consumer Sales at Bose, SVP at Samsung U.S., SVP of Sales at Coty Beauty U.S., with earlier roles at Novartis Consumer Health and Procter & Gamble — and pairs that operator\'s instinct with a working command of how generative AI actually changes how teams sell, plan, and decide.',
+      bio: "Matt is a Co-Founder of AccioIQ and a generative-AI subject expert who translates frontier capability into commercial outcomes. He serves as Professor of Business and Vice Chair for AI Strategy at Skidmore College, where he holds the F. William Harder Chair of Business Administration and teaches Foundations with Generative AI and AI-Powered Selling. Matt brings two decades of senior executive leadership at global consumer brands — Global VP of Consumer Sales at Bose, SVP at Samsung U.S., SVP of Sales at Coty Beauty U.S., with earlier roles at Novartis Consumer Health and Procter & Gamble — and pairs that operator's instinct with a working command of how generative AI actually changes how teams sell, plan, and decide.",
       initials: 'ML',
       stats: [
         { n: 'AI Strategy', b: 'Vice Chair for AI Strategy, Skidmore College.' },
@@ -28,18 +28,6 @@ function Team() {
       ],
     },
     {
-      name: 'Cole Rogan',
-      role: 'Associate',
-      short: "Skidmore '26 grad. Built CoachCole — AccioIQ's first product, used by NCAA D1–D3 soccer programs.",
-      bio: 'Cole is deeply involved in client engagements at AccioIQ. A May 2026 Skidmore College graduate, he brings over a year of professional AI consulting experience at Selective Insurance — a large insurance company — where he examined internal workflows, built AI agents, and served as a prompt engineer to create tools that have saved teams thousands of hours of repetitive work. Cole also built CoachCole — AccioIQ\'s first product — an elite NCAA soccer scouting tool actively used by head coaches competing in Divisions 1, 2, and 3. He uses his expertise to contribute to AI solutions that feel clear and native by the time they ship.',
-      initials: 'CR',
-      stats: [
-        { n: '1,000s', b: 'Of hours of repetitive work eliminated for teams at Selective Insurance.' },
-        { n: 'CoachCole', b: 'Built AccioIQ’s first product — a scouting tool used across NCAA D1–D3 soccer.' },
-        { n: 'Skidmore ’26', b: 'Recent graduate; over a year of professional AI consulting experience.' },
-      ],
-    },
-    {
       name: 'Sean Craine',
       role: 'VP of Strategic Partnerships',
       short: 'Nearly two decades of commercial leadership in life sciences. Harvard Business School General Management Program. Bridges science, strategy, and AI.',
@@ -52,10 +40,22 @@ function Team() {
       ],
     },
     {
+      name: 'Cole Rogan',
+      role: 'Associate',
+      short: "Skidmore '26 grad. Built CoachCole — AccioIQ's first product, used by NCAA D1-D3 soccer programs.",
+      bio: "Cole is deeply involved in client engagements at AccioIQ. A May 2026 Skidmore College graduate, he brings over a year of professional AI consulting experience at Selective Insurance — a large insurance company — where he examined internal workflows, built AI agents, and served as a prompt engineer to create tools that have saved teams thousands of hours of repetitive work. Cole also built CoachCole — AccioIQ's first product — an elite NCAA soccer scouting tool actively used by head coaches competing in Divisions 1, 2, and 3. He uses his expertise to contribute to AI solutions that feel clear and native by the time they ship.",
+      initials: 'CR',
+      stats: [
+        { n: '1,000s', b: 'Of hours of repetitive work eliminated for teams at Selective Insurance.' },
+        { n: 'CoachCole', b: "Built AccioIQ's first product — a scouting tool used across NCAA D1-D3 soccer." },
+        { n: "Skidmore '26", b: 'Recent graduate; over a year of professional AI consulting experience.' },
+      ],
+    },
+    {
       name: 'Anna Hyson',
       role: 'Associate',
       short: "Skidmore '26 grad. AI sales, content strategy, and workflow design experience across client engagements.",
-      bio: 'Anna works across client engagements at AccioIQ, bringing a strong mix of AI, sales, and content strategy experience. With a background in Management & Business from Skidmore College and hands-on experience in AI-powered selling at Skaled Consulting, she has worked across outbound strategy, AI sales workflows, content creation, and podcast production. Her work focuses on turning new AI tools into practical systems that teams can actually use. At AccioIQ, Anna brings that same approach: understanding the client\'s workflow first, then helping design tools that feel clear, useful, and easy to adopt.',
+      bio: "Anna works across client engagements at AccioIQ, bringing a strong mix of AI, sales, and content strategy experience. With a background in Management & Business from Skidmore College and hands-on experience in AI-powered selling at Skaled Consulting, she has worked across outbound strategy, AI sales workflows, content creation, and podcast production. Her work focuses on turning new AI tools into practical systems that teams can actually use. At AccioIQ, Anna brings that same approach: understanding the client's workflow first, then helping design tools that feel clear, useful, and easy to adopt.",
       initials: 'AH',
       stats: [
         { n: 'Skaled', b: 'AI-powered selling experience at Skaled Consulting.' },
@@ -120,7 +120,7 @@ function Team() {
                   color: active === i ? 'var(--aq-teal-dark)' : 'var(--aq-sage)',
                   transform: active === i ? 'translateX(4px)' : 'translateX(0)',
                   transition: 'transform 320ms var(--ease-out)',
-                }}>→</div>
+                }}>&#8594;</div>
               </button>
             ))}
           </div>
