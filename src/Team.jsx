@@ -40,6 +40,18 @@ function Team() {
       ],
     },
     {
+      name: 'Sean Craine',
+      role: 'VP of Strategic Partnerships',
+      short: 'Nearly two decades of commercial leadership in life sciences. Harvard Business School General Management Program. Bridges science, strategy, and AI.',
+      bio: 'Sean brings nearly two decades of commercial leadership in the life sciences industry, with a career defined by building high-value partnerships between complex organizations and the scientific capabilities that accelerate their missions. His background spans senior leadership roles in the Life Science Industry where he led enterprise account teams and managed large, multi-stakeholder portfolios across major pharmaceutical and biotechnology clients. Throughout his career, Sean has worked at the intersection of science and strategy, helping organizations navigate complex procurement relationships, align commercial priorities, and drive growth at scale. A graduate of the University of Vermont with a B.S. in Biology, Sean also completed the Harvard Business School General Management Program focusing on digital business strategy and finance. These foundations — scientific literacy, rigorous business training, and decades of frontline commercial experience — uniquely position him to help organizations identify where AI can create measurable impact and translate that potential into operational reality.',
+      initials: 'SC',
+      stats: [
+        { n: '20 yrs', b: 'Senior commercial leadership in life sciences and biopharma.' },
+        { n: 'HBS', b: 'Harvard Business School General Management Program — digital strategy and finance.' },
+        { n: 'UVM', b: 'B.S. in Biology, University of Vermont.' },
+      ],
+    },
+    {
       name: 'Anna Hyson',
       role: 'Associate',
       short: "Skidmore '26 grad. AI sales, content strategy, and workflow design experience across client engagements.",
