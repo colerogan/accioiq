@@ -22,7 +22,7 @@ function Beliefs({ darkBg = 'forest' }) {
               fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 32 : 48,
               lineHeight: 1.1, color: 'var(--aq-parchment)', letterSpacing: '-0.01em', margin: 0,
             }}>
-              Four things we <em>won't</em> compromise on.
+              Five things we <em>won't</em> compromise on.
             </h2>
           </div>
           <p style={{

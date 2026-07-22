@@ -23,7 +23,7 @@
       color: "var(--aq-parchment)",
       letterSpacing: "-0.01em",
       margin: 0
-    } }, "Four things we ", /* @__PURE__ */ React.createElement("em", null, "won't"), " compromise on.")), /* @__PURE__ */ React.createElement("p", { style: {
+    } }, "Five things we ", /* @__PURE__ */ React.createElement("em", null, "won't"), " compromise on.")), /* @__PURE__ */ React.createElement("p", { style: {
       fontFamily: "var(--font-body)",
       fontWeight: 300,
       fontSize: isMobile ? 15 : 17,
