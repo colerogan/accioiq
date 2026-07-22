@@ -4,17 +4,17 @@ function Philosophy() {
   const isMobile = useIsMobile();
   const phases = [
     {
-      n: '01', tag: 'Phase one', t: 'Deep Integration',
+      n: '01', tag: 'Phase one', t: 'Learn the work',
       b: 'We embed within your teams to learn culture and workflows from the ground floor. Not from a conference room. Not from a discovery deck. From inside.',
       detail: 'We shadow. We sit in meetings. We ask obvious questions. Before we propose anything, we understand how the work actually gets done — including the parts that never make it into a process doc.',
     },
     {
-      n: '02', tag: 'Phase two', t: 'Internal Catalyst',
+      n: '02', tag: 'Phase two', t: 'Build with you',
       b: 'We co-build solutions that feel native to your organization — not forced upon it. Tools your people helped design, on workflows they actually run.',
       detail: 'Co-design is the method. Your team owns the problem and the artifact. We bring AI fluency, prompt design, and the discipline of keeping things small until they work.',
     },
     {
-      n: '03', tag: 'Phase three', t: 'Sustainable Autonomy',
+      n: '03', tag: 'Phase three', t: 'Leave it yours',
       b: 'We stay until the capability is fully yours. Internal champions lead. External consultants leave. The change is permanent — or it wasn\'t change.',
       detail: 'Success is measured by what happens after we\'re gone. Champions keep building. Playbooks keep circulating. The organization gets better at AI without us in the room.',
     },

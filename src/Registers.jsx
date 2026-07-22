@@ -4,7 +4,7 @@ function Registers() {
   const items = [
     {
       n: '01', t: 'Leadership',
-      sub: 'Clear-eyed AI literacy for executives — focused on live priorities.',
+      sub: 'AI literacy for executives — on the decisions actually in front of them.',
       b: 'We work with executives as peers. What AI can realistically do against the priorities on their desk right now — and what it can\'t. No hype. No horizon-scanning decks.',
       bullets: ['Baseline AI literacy', 'Live priority mapping', 'Honest limits, named'],
     },
@@ -16,7 +16,7 @@ function Registers() {
     },
     {
       n: '03', t: 'Teams',
-      sub: 'Scaling capability through internal champions and shared playbooks.',
+      sub: 'Building the internal capability to keep going after we leave.',
       b: 'Organizational change is the real work. We identify internal champions, equip them with playbooks, and let the scaling happen through people your teams already trust.',
       bullets: ['Champion cohort', 'Shared playbooks', 'Firm-wide workshops'],
     },

@@ -6,7 +6,7 @@ function Method({ darkBg = 'deep' }) {
   const isMobile = useIsMobile();
   const months = [
     {
-      n: 'Month 01', t: 'Executive Leadership Kickoff',
+      n: 'Month 01', t: 'Executive Alignment',
       sub: 'Setting a common AI language and adoption baseline.',
       who: 'Executives · Operating leaders',
       out: ['Shared AI vocabulary', 'Baseline adoption audit', 'Live priorities mapped to AI leverage'],
@@ -148,7 +148,7 @@ function Method({ darkBg = 'deep' }) {
             gap: isMobile ? 32 : 80, alignItems: 'start',
           }}>
             <div>
-              <div className="aq-eyebrow" style={{ color: 'var(--aq-teal)', marginBottom: 16 }}>Key framework</div>
+              <div className="aq-eyebrow" style={{ color: 'var(--aq-teal)', marginBottom: 16 }}>What we teach</div>
               <h3 style={{
                 fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 26 : 34,
                 lineHeight: 1.15, color: 'var(--aq-parchment)', letterSpacing: '-0.005em', margin: 0,

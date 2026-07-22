@@ -4,10 +4,10 @@ function Cases({ layout = 'list' }) {
   const isMobile = useIsMobile();
   const cases = [
     {
-      n: '01', sector: 'Commercial Ops', client: 'Global Toy Company',
-      headline: 'From scattered experimentation to shared demand-planning automation.',
-      stat: '60+', statLabel: 'team members upskilled in 90 days',
-      detail: 'A global toy manufacturer had teams experimenting with AI in isolation — some brilliant, most duplicative. We embedded with commercial operations, co-built shared demand-planning tooling with the forecasting team, and scaled the capability through internal champions across 60+ people. Ninety days later, experimentation had become a shared practice.',
+      n: '01', sector: 'Enterprise Sales', client: 'Global Software Company',
+      headline: 'From "what is this tool?" to 16 agents shipped in six months.',
+      stat: '16+', statLabel: 'agents shipped across robotics, automotive & healthcare',
+      detail: 'A global software company across robotics, automotive, and healthcare had leadership commit to AI before the organization understood it. We embedded across six cohorts, co-built 16+ working agents, and grew active users to 48 — with team confidence rising from 6.4 to 8.0 out of 10 and prompt usage growing over 300%. Leadership committed first. That is what made it stick.',
     },
     {
       n: '02', sector: 'Due Diligence', client: 'Private Equity Consultancy',
@@ -20,6 +20,12 @@ function Cases({ layout = 'list' }) {
       headline: 'Technical RFP drafting accelerated by 60–80% through CRM-integrated recaps.',
       stat: '60–80%', statLabel: 'reduction in technical RFP drafting time',
       detail: 'RFPs were an all-hands fire drill that burned out the strongest sellers. We integrated AI-generated account recaps directly with the CRM, pre-filling the technical sections that sales engineers used to rebuild from scratch. Drafting time dropped 60–80%, and the sellers spent their hours where they actually mattered.',
+    },
+    {
+      n: '04', sector: 'Nonprofit', client: 'Performing Arts Organization',
+      headline: 'The same methodology that works at global scale also works for a 60-year-old nonprofit.',
+      stat: '4', statLabel: 'custom Learning Labs built in a single 90-day engagement',
+      detail: 'A performing arts nonprofit with a small team and a mission that mattered came to us not because they had an AI budget but because they were running out of capacity. We right-sized the Leadership, Labs, and Teams approach — four custom Learning Labs, real workflows, real tools. The result was not a deployment. It was a team that knew how to keep going.',
     },
   ];
 

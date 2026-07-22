@@ -31,11 +31,19 @@ function Hero({ accent = 'teal' }) {
               color: 'var(--aq-teal)', letterSpacing: '-0.01em',
             }}>IQ</span>
           </div>
-          <div style={{
-            fontFamily: 'var(--font-display)', fontStyle: 'italic', fontWeight: 400,
-            fontSize: isMobile ? 16 : 22, color: 'var(--aq-sage)', letterSpacing: '-0.005em',
-          }}>
-            AI from the inside out.
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+            <div style={{
+              fontFamily: 'var(--font-display)', fontStyle: 'italic', fontWeight: 400,
+              fontSize: isMobile ? 16 : 22, color: 'var(--aq-sage)', letterSpacing: '-0.005em',
+            }}>
+              AI from the inside out.
+            </div>
+            <div style={{
+              fontFamily: 'var(--font-display)', fontStyle: 'italic', fontWeight: 400,
+              fontSize: isMobile ? 14 : 18, color: 'var(--aq-teal)', letterSpacing: '-0.005em',
+            }}>
+              Creating value through the human advantage.
+            </div>
           </div>
         </div>
 
@@ -47,13 +55,13 @@ function Hero({ accent = 'teal' }) {
             fontFamily: 'var(--font-body)', fontWeight: 400, fontSize: 11,
             letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--aq-teal)',
           }}>
-            AccioIQ · AI Consulting & Upskilling
+            AccioIQ · AI Consulting
           </div>
           <div style={{
             fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: 12,
             color: 'var(--aq-sage)', letterSpacing: '0.04em',
           }}>
-            Est. 2024 · Confidential engagements
+            Est. 2024
           </div>
         </div>
 
@@ -63,7 +71,7 @@ function Hero({ accent = 'teal' }) {
           lineHeight: 1.0, letterSpacing: '-0.018em',
           color: 'var(--aq-parchment)', margin: 0, maxWidth: '15ch',
         }}>
-          Transforming organizations from the <em style={emStyle}>inside out.</em>
+          Most AI consulting hands you a roadmap and <em style={emStyle}>leaves.</em>
         </h1>
 
         <div style={{
@@ -77,7 +85,7 @@ function Hero({ accent = 'teal' }) {
             fontSize: isMobile ? 16 : 19,
             lineHeight: 1.6, color: 'var(--aq-parchment)', margin: 0, maxWidth: 560,
           }}>
-            Most AI consulting hands you a roadmap and leaves. <span style={{ color: 'var(--aq-teal)' }}>We stay until the capability is genuinely yours.</span> We embed with your teams, learn your workflows, and solve the social and organizational change problems that prevent AI adoption.
+            <span style={{ color: 'var(--aq-teal)' }}>We stay until the capability is genuinely yours.</span> We embed with your teams, learn your workflows, and solve the social and organizational change problems that prevent AI adoption. And as AI takes on more of the drafting and analysis, we build the two capabilities that matter most: critical thinking and creative thought.
           </p>
           <div style={{
             borderLeft: isMobile ? 'none' : '1px solid rgba(216,228,220,.25)',
