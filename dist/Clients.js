@@ -84,27 +84,28 @@
           alignItems: "center"
         }
       },
-      /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { style: {
+      /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { className: "aq-eyebrow", style: { color: "var(--aq-teal)", marginBottom: 6 } }, item.sector), /* @__PURE__ */ React.createElement("div", { style: {
         fontFamily: "var(--font-display)",
         fontWeight: 400,
         fontSize: isMobile ? 20 : 26,
         color: "var(--aq-parchment)",
         lineHeight: 1.2
-      } }, item.t), isMobile && /* @__PURE__ */ React.createElement("div", { style: {
+      } }, item.client), isMobile && /* @__PURE__ */ React.createElement("div", { style: {
         fontFamily: "var(--font-body)",
         fontWeight: 300,
         fontSize: 13,
         lineHeight: 1.5,
         color: "var(--aq-sage)",
         marginTop: 4
-      } }, item.b)),
+      } }, item.headline)),
       !isMobile && /* @__PURE__ */ React.createElement("div", { style: {
-        fontFamily: "var(--font-body)",
-        fontWeight: 300,
-        fontSize: 15,
-        lineHeight: 1.6,
+        fontFamily: "var(--font-display)",
+        fontStyle: "italic",
+        fontWeight: 400,
+        fontSize: 17,
+        lineHeight: 1.4,
         color: "var(--aq-sage)"
-      } }, item.b),
+      } }, item.headline),
       /* @__PURE__ */ React.createElement("div", { style: {
         fontFamily: "var(--font-body)",
         fontSize: 20,

@@ -82,22 +82,23 @@ function Clients({ darkBg = 'deep' }) {
                   gap: isMobile ? 16 : 32, alignItems: 'center',
                 }}>
                 <div>
+                  <div className="aq-eyebrow" style={{ color: 'var(--aq-teal)', marginBottom: 6 }}>{item.sector}</div>
                   <div style={{
                     fontFamily: 'var(--font-display)', fontWeight: 400,
                     fontSize: isMobile ? 20 : 26, color: 'var(--aq-parchment)', lineHeight: 1.2,
-                  }}>{item.t}</div>
+                  }}>{item.client}</div>
                   {isMobile && (
                     <div style={{
                       fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: 13,
                       lineHeight: 1.5, color: 'var(--aq-sage)', marginTop: 4,
-                    }}>{item.b}</div>
+                    }}>{item.headline}</div>
                   )}
                 </div>
                 {!isMobile && (
                   <div style={{
-                    fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: 15,
-                    lineHeight: 1.6, color: 'var(--aq-sage)',
-                  }}>{item.b}</div>
+                    fontFamily: 'var(--font-display)', fontStyle: 'italic', fontWeight: 400,
+                    fontSize: 17, lineHeight: 1.4, color: 'var(--aq-sage)',
+                  }}>{item.headline}</div>
                 )}
                 <div style={{
                   fontFamily: 'var(--font-body)', fontSize: 20,
