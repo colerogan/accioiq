@@ -81,7 +81,7 @@
       color: "var(--aq-parchment)",
       margin: 0,
       maxWidth: "15ch"
-    } }, "Most AI consulting hands you a roadmap and ", /* @__PURE__ */ React.createElement("em", { style: emStyle }, "leaves.")), /* @__PURE__ */ React.createElement("div", { style: {
+    } }, "Most AI consultants hand you a road map and leave."), /* @__PURE__ */ React.createElement("div", { style: {
       display: "grid",
       gridTemplateColumns: isMobile ? "1fr" : "1.1fr 1fr",
       gap: isMobile ? 40 : 96,
@@ -95,7 +95,7 @@
       color: "var(--aq-parchment)",
       margin: 0,
       maxWidth: 560
-    } }, /* @__PURE__ */ React.createElement("span", { style: { color: "var(--aq-teal)" } }, "We stay until the capability is genuinely yours."), " We embed with your teams, learn your workflows, and solve the social and organizational change problems that prevent AI adoption. And as AI takes on more of the drafting and analysis, we build the two capabilities that matter most: critical thinking and creative thought."), /* @__PURE__ */ React.createElement("div", { style: {
+    } }, "We stay until the capability is genuinely yours. We embed with your teams, learn your workflows, and solve the social and organizational change problems that prevent AI adoption. And as AI takes on more of the drafting and analysis, we build the two capabilities that matter most: critical thinking and creative thought."), /* @__PURE__ */ React.createElement("div", { style: {
       borderLeft: isMobile ? "none" : "1px solid rgba(216,228,220,.25)",
       borderTop: isMobile ? "1px solid rgba(216,228,220,.18)" : "none",
       paddingLeft: isMobile ? 0 : 32,

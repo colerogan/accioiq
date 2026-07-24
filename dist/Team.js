@@ -73,7 +73,7 @@
       letterSpacing: "-0.01em",
       margin: 0,
       maxWidth: "22ch"
-    } }, "Partners who ", /* @__PURE__ */ React.createElement("em", { style: { color: "var(--aq-teal-dark)" } }, "stay"), " in the room.")), /* @__PURE__ */ React.createElement("div", { style: {
+    } }, "Partners who stay in the room.")), /* @__PURE__ */ React.createElement("div", { style: {
       display: "grid",
       gridTemplateColumns: isMobile ? "1fr" : "1fr 1.4fr",
       gap: isMobile ? 0 : 56,

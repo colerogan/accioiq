@@ -3,14 +3,12 @@
     const isMobile = useIsMobile();
     const capabilities = [
       {
-        n: "01",
         t: "Critical Thinking",
         b: "Question assumptions, evaluate AI outputs, weigh evidence, recognize bias, and decide what is good enough to act on.",
         stat: "69%",
         statLabel: "of employers rank analytical thinking as the most essential skill \u2014 WEF, 2025"
       },
       {
-        n: "02",
         t: "Creative Thought",
         b: "Reframe problems, generate stronger options, combine ideas in useful ways, and move past the first obvious answer.",
         stat: "57%",
@@ -31,7 +29,7 @@
       color: "var(--aq-deep)",
       letterSpacing: "-0.01em",
       margin: 0
-    } }, "AI can generate answers. Your organization still has to ", /* @__PURE__ */ React.createElement("em", { style: { color: "var(--aq-teal-dark)" } }, "know which ones to trust."))), /* @__PURE__ */ React.createElement("div", { style: { paddingTop: isMobile ? 0 : 8 } }, /* @__PURE__ */ React.createElement("p", { style: {
+    } }, "AI can generate answers. Your organization still has to know which ones to trust.")), /* @__PURE__ */ React.createElement("div", { style: { paddingTop: isMobile ? 0 : 8 } }, /* @__PURE__ */ React.createElement("p", { style: {
       fontFamily: "var(--font-body)",
       fontWeight: 300,
       fontSize: isMobile ? 15 : 18,
@@ -47,31 +45,25 @@
       margin: 0,
       paddingTop: 24,
       borderTop: "1px solid var(--aq-rule)"
-    } }, /* @__PURE__ */ React.createElement("em", { style: { color: "var(--aq-deep)", fontStyle: "normal", fontWeight: 400 } }, "The risk is not faster output."), " The risk is weaker judgment behind it. Careless AI use can narrow the range of ideas people generate and reduce the effort they put into thinking critically. AccioIQ closes that gap."))), /* @__PURE__ */ React.createElement("div", { style: {
+    } }, "The risk is not faster output. The risk is weaker judgment behind it. Careless AI use can narrow the range of ideas people generate and reduce the effort they put into thinking critically. AccioIQ closes that gap."))), /* @__PURE__ */ React.createElement("div", { style: {
       display: "grid",
       gridTemplateColumns: isMobile ? "1fr" : "repeat(2, 1fr)",
       gap: 0,
       borderTop: "1px solid var(--aq-rule)"
-    } }, capabilities.map((c, i) => /* @__PURE__ */ React.createElement("div", { key: c.n, style: {
+    } }, capabilities.map((c, i) => /* @__PURE__ */ React.createElement("div", { key: c.t, style: {
       padding: isMobile ? "40px 0" : "56px 56px 64px",
       borderRight: !isMobile && i === 0 ? "1px solid var(--aq-rule)" : "none",
       borderBottom: isMobile && i === 0 ? "1px solid var(--aq-rule)" : "none",
       display: "flex",
       flexDirection: "column",
       gap: 20
-    } }, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "baseline", gap: 16 } }, /* @__PURE__ */ React.createElement("span", { style: {
-      fontFamily: "var(--font-body)",
-      fontSize: 11,
-      fontWeight: 400,
-      letterSpacing: "0.22em",
-      color: "var(--aq-teal-dark)"
-    } }, c.n), /* @__PURE__ */ React.createElement("span", { style: {
+    } }, /* @__PURE__ */ React.createElement("div", { style: {
       fontFamily: "var(--font-display)",
       fontWeight: 400,
       fontSize: isMobile ? 28 : 36,
       color: "var(--aq-deep)",
       lineHeight: 1.1
-    } }, c.t)), /* @__PURE__ */ React.createElement("p", { style: {
+    } }, c.t), /* @__PURE__ */ React.createElement("p", { style: {
       fontFamily: "var(--font-body)",
       fontWeight: 300,
       fontSize: isMobile ? 15 : 17,

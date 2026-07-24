@@ -3,28 +3,28 @@
     const isMobile = useIsMobile();
     const items = [
       {
-        n: "01",
+        n: "1",
         t: "Leadership",
         sub: "AI literacy for executives \u2014 on the decisions actually in front of them.",
-        b: "We work with executives as peers. What AI can realistically do against the priorities on their desk right now \u2014 and what it can't. No hype. No horizon-scanning decks.",
+        b: "We work with executives as peers. What AI can realistically do against the priorities on their desk right now \u2014 and what it cannot. No hype. No horizon-scanning decks.",
         bullets: ["Baseline AI literacy", "Live priority mapping", "Honest limits, named"]
       },
       {
-        n: "02",
+        n: "2",
         t: "Labs",
         sub: "Co-building working AI assistants for specific workflows.",
         b: "Small, cross-functional teams with a real workflow problem. We co-build working assistants \u2014 forecasting, QBR prep, RFP drafting \u2014 tools people use on Monday.",
         bullets: ["Workflow diagnostics", "Prompt and tool design", "Measured adoption"]
       },
       {
-        n: "03",
+        n: "3",
         t: "Teams",
         sub: "Building the internal capability to keep going after we leave.",
         b: "Organizational change is the real work. We identify internal champions, equip them with playbooks, and let the scaling happen through people your teams already trust.",
         bullets: ["Champion cohort", "Shared playbooks", "Firm-wide workshops"]
       }
     ];
-    return /* @__PURE__ */ React.createElement("section", { style: { background: "var(--aq-parchment)", padding: isMobile ? "72px 20px" : "128px 40px" } }, /* @__PURE__ */ React.createElement("div", { style: { maxWidth: 1200, margin: "0 auto" } }, /* @__PURE__ */ React.createElement("div", { style: { marginBottom: isMobile ? 40 : 72 } }, /* @__PURE__ */ React.createElement("div", { className: "aq-eyebrow", style: { color: "var(--aq-teal-dark)", marginBottom: 20 } }, "Service framework \xB7 Three registers"), /* @__PURE__ */ React.createElement("h2", { style: {
+    return /* @__PURE__ */ React.createElement("section", { style: { background: "var(--aq-parchment)", padding: isMobile ? "72px 20px" : "128px 40px" } }, /* @__PURE__ */ React.createElement("div", { style: { maxWidth: 1200, margin: "0 auto" } }, /* @__PURE__ */ React.createElement("div", { style: { marginBottom: isMobile ? 40 : 72 } }, /* @__PURE__ */ React.createElement("div", { className: "aq-eyebrow", style: { color: "var(--aq-teal-dark)", marginBottom: 20 } }, "Service framework"), /* @__PURE__ */ React.createElement("h2", { style: {
       fontFamily: "var(--font-display)",
       fontWeight: 400,
       fontSize: isMobile ? 36 : 52,
@@ -33,7 +33,7 @@
       letterSpacing: "-0.01em",
       margin: 0,
       maxWidth: "22ch"
-    } }, "Leadership \xB7 Labs \xB7 ", /* @__PURE__ */ React.createElement("em", { style: { color: "var(--aq-teal-dark)" } }, "Teams.")), /* @__PURE__ */ React.createElement("p", { style: {
+    } }, "Leadership \xB7 Labs \xB7 Teams."), /* @__PURE__ */ React.createElement("p", { style: {
       fontFamily: "var(--font-body)",
       fontWeight: 300,
       fontSize: isMobile ? 15 : 17,
@@ -41,7 +41,7 @@
       color: "var(--aq-slate)",
       margin: "24px 0 0",
       maxWidth: "56ch"
-    } }, "Three registers running simultaneously, because they depend on each other. Leadership without labs produces decks. Labs without teams produces demos. Teams without leadership produces enthusiasm that dies on Monday.")), /* @__PURE__ */ React.createElement("div", { style: {
+    } }, "Three dimensions running simultaneously, because they depend on each other. Leadership without labs produces decks. Labs without teams produces demos. Teams without leadership produces enthusiasm that dies on Monday.")), /* @__PURE__ */ React.createElement("div", { style: {
       display: "grid",
       gridTemplateColumns: isMobile ? "1fr" : "repeat(3, 1fr)",
       gap: 0,

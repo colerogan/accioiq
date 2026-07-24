@@ -3,11 +3,11 @@
     const bg = darkBg === "deep" ? "var(--aq-deep)" : "var(--aq-forest)";
     const isMobile = useIsMobile();
     const beliefs = [
-      { label: "Belief 01", t: "Capability over product.", b: "AI is an organizational skill to be developed \u2014 not just a tool to be bought. The spend follows the capability, not the other way around." },
-      { label: "Belief 02", t: "The hard part is human.", b: "AI failures happen when the human side is an afterthought. Most of the hard work is social, not technical." },
-      { label: "Belief 03", t: "Honest limits.", b: "Naming AI's constraints and risks transparently is required for trust. We tell leaders what AI can't do as readily as what it can." },
-      { label: "Belief 04", t: "Co-design.", b: "Only co-built solutions actually stick. If your team didn't help design it, they won't defend it when it breaks." },
-      { label: "Belief 05", t: "The human advantage.", b: "AI should not turn your people into passive reviewers of machine output. It should help them think better, decide better, and create better work. That is what we protect." }
+      { t: "Capability over product.", b: "AI is an organizational skill to be developed \u2014 not just a tool to be bought. The spend follows the capability, not the other way around." },
+      { t: "The hard part is human.", b: "AI failures happen when the human side is an afterthought. Most of the hard work is social, not technical." },
+      { t: "Honest limits.", b: "Naming AI's constraints and risks transparently is required for trust. We tell leaders what AI cannot do as readily as what it can." },
+      { t: "Co-design.", b: "Only co-built solutions actually stick. If your team did not help design it, they will not defend it when it breaks." },
+      { t: "The human advantage.", b: "AI should not turn your people into passive reviewers of machine output. It should help them think better, decide better, and create better work. That is what we protect." }
     ];
     return /* @__PURE__ */ React.createElement("section", { className: "aq-on-dark", style: { background: bg, padding: isMobile ? "72px 20px" : "128px 40px" } }, /* @__PURE__ */ React.createElement("div", { style: { maxWidth: 1200, margin: "0 auto" } }, /* @__PURE__ */ React.createElement("div", { style: {
       display: "grid",
@@ -23,7 +23,7 @@
       color: "var(--aq-parchment)",
       letterSpacing: "-0.01em",
       margin: 0
-    } }, "Five things we ", /* @__PURE__ */ React.createElement("em", null, "won't"), " compromise on.")), /* @__PURE__ */ React.createElement("p", { style: {
+    } }, "Five things we will not compromise on.")), /* @__PURE__ */ React.createElement("p", { style: {
       fontFamily: "var(--font-body)",
       fontWeight: 300,
       fontSize: isMobile ? 15 : 17,
@@ -32,13 +32,13 @@
       margin: 0,
       paddingTop: 24,
       borderTop: "1px solid rgba(216,228,220,.18)"
-    } }, "These aren't positioning statements. They're the beliefs that decide whether we take an engagement, how we scope it, and when we tell a client something they don't want to hear.")), /* @__PURE__ */ React.createElement("div", { style: {
+    } }, "These are not positioning statements. They are the beliefs that decide whether we take an engagement, how we scope it, and when we tell a client something they do not want to hear.")), /* @__PURE__ */ React.createElement("div", { style: {
       display: "grid",
       gridTemplateColumns: isMobile ? "1fr" : "repeat(2, 1fr)",
       gap: 0,
       borderTop: "1px solid rgba(216,228,220,.18)",
       borderLeft: "1px solid rgba(216,228,220,.18)"
-    } }, beliefs.map((b, idx) => /* @__PURE__ */ React.createElement("div", { key: b.label, style: {
+    } }, beliefs.map((b, idx) => /* @__PURE__ */ React.createElement("div", { key: b.t, style: {
       padding: isMobile ? "32px 0 40px" : "48px 40px 56px",
       borderRight: "1px solid rgba(216,228,220,.18)",
       borderBottom: "1px solid rgba(216,228,220,.18)",
@@ -46,9 +46,8 @@
       display: "flex",
       flexDirection: "column",
       gap: 16
-    } }, /* @__PURE__ */ React.createElement("div", { className: "aq-eyebrow", style: { color: "var(--aq-teal)" } }, b.label), /* @__PURE__ */ React.createElement("div", { style: {
+    } }, /* @__PURE__ */ React.createElement("div", { style: {
       fontFamily: "var(--font-display)",
-      fontStyle: "italic",
       fontWeight: 400,
       fontSize: isMobile ? 24 : 34,
       lineHeight: 1.2,

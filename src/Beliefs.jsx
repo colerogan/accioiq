@@ -1,13 +1,13 @@
-// Beliefs.jsx — Core beliefs as declarative pull quotes
+// Beliefs.jsx
 function Beliefs({ darkBg = 'forest' }) {
   const bg = darkBg === 'deep' ? 'var(--aq-deep)' : 'var(--aq-forest)';
   const isMobile = useIsMobile();
   const beliefs = [
-    { label: 'Belief 01', t: 'Capability over product.', b: 'AI is an organizational skill to be developed — not just a tool to be bought. The spend follows the capability, not the other way around.' },
-    { label: 'Belief 02', t: 'The hard part is human.', b: 'AI failures happen when the human side is an afterthought. Most of the hard work is social, not technical.' },
-    { label: 'Belief 03', t: 'Honest limits.', b: 'Naming AI\'s constraints and risks transparently is required for trust. We tell leaders what AI can\'t do as readily as what it can.' },
-    { label: 'Belief 04', t: 'Co-design.', b: 'Only co-built solutions actually stick. If your team didn\'t help design it, they won\'t defend it when it breaks.' },
-    { label: 'Belief 05', t: 'The human advantage.', b: 'AI should not turn your people into passive reviewers of machine output. It should help them think better, decide better, and create better work. That is what we protect.' },
+    { t: 'Capability over product.', b: 'AI is an organizational skill to be developed — not just a tool to be bought. The spend follows the capability, not the other way around.' },
+    { t: 'The hard part is human.', b: 'AI failures happen when the human side is an afterthought. Most of the hard work is social, not technical.' },
+    { t: 'Honest limits.', b: 'Naming AI\'s constraints and risks transparently is required for trust. We tell leaders what AI cannot do as readily as what it can.' },
+    { t: 'Co-design.', b: 'Only co-built solutions actually stick. If your team did not help design it, they will not defend it when it breaks.' },
+    { t: 'The human advantage.', b: 'AI should not turn your people into passive reviewers of machine output. It should help them think better, decide better, and create better work. That is what we protect.' },
   ];
   return (
     <section className="aq-on-dark" style={{ background: bg, padding: isMobile ? '72px 20px' : '128px 40px' }}>
@@ -22,7 +22,7 @@ function Beliefs({ darkBg = 'forest' }) {
               fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 32 : 48,
               lineHeight: 1.1, color: 'var(--aq-parchment)', letterSpacing: '-0.01em', margin: 0,
             }}>
-              Five things we <em>won't</em> compromise on.
+              Five things we will not compromise on.
             </h2>
           </div>
           <p style={{
@@ -30,7 +30,7 @@ function Beliefs({ darkBg = 'forest' }) {
             lineHeight: 1.6, color: 'var(--aq-sage)', margin: 0,
             paddingTop: 24, borderTop: '1px solid rgba(216,228,220,.18)',
           }}>
-            These aren't positioning statements. They're the beliefs that decide whether we take an engagement, how we scope it, and when we tell a client something they don't want to hear.
+            These are not positioning statements. They are the beliefs that decide whether we take an engagement, how we scope it, and when we tell a client something they do not want to hear.
           </p>
         </div>
 
@@ -39,16 +39,15 @@ function Beliefs({ darkBg = 'forest' }) {
           borderTop: '1px solid rgba(216,228,220,.18)', borderLeft: '1px solid rgba(216,228,220,.18)',
         }}>
           {beliefs.map((b, idx) => (
-            <div key={b.label} style={{
+            <div key={b.t} style={{
               padding: isMobile ? '32px 0 40px' : '48px 40px 56px',
               borderRight: '1px solid rgba(216,228,220,.18)',
               borderBottom: '1px solid rgba(216,228,220,.18)',
               gridColumn: !isMobile && idx === 4 ? '1 / -1' : 'auto',
               display: 'flex', flexDirection: 'column', gap: 16,
             }}>
-              <div className="aq-eyebrow" style={{ color: 'var(--aq-teal)' }}>{b.label}</div>
               <div style={{
-                fontFamily: 'var(--font-display)', fontStyle: 'italic', fontWeight: 400,
+                fontFamily: 'var(--font-display)', fontWeight: 400,
                 fontSize: isMobile ? 24 : 34, lineHeight: 1.2,
                 color: 'var(--aq-parchment)', letterSpacing: '-0.005em', maxWidth: 22 + 'ch',
               }}>{b.t}</div>

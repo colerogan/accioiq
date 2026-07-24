@@ -3,14 +3,12 @@ function HumanAdvantage() {
   const isMobile = useIsMobile();
   const capabilities = [
     {
-      n: '01',
       t: 'Critical Thinking',
       b: 'Question assumptions, evaluate AI outputs, weigh evidence, recognize bias, and decide what is good enough to act on.',
       stat: '69%',
       statLabel: 'of employers rank analytical thinking as the most essential skill — WEF, 2025',
     },
     {
-      n: '02',
       t: 'Creative Thought',
       b: 'Reframe problems, generate stronger options, combine ideas in useful ways, and move past the first obvious answer.',
       stat: '57%',
@@ -34,7 +32,7 @@ function HumanAdvantage() {
               fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 36 : 52,
               lineHeight: 1.08, color: 'var(--aq-deep)', letterSpacing: '-0.01em', margin: 0,
             }}>
-              AI can generate answers. Your organization still has to <em style={{ color: 'var(--aq-teal-dark)' }}>know which ones to trust.</em>
+              AI can generate answers. Your organization still has to know which ones to trust.
             </h2>
           </div>
           <div style={{ paddingTop: isMobile ? 0 : 8 }}>
@@ -49,7 +47,7 @@ function HumanAdvantage() {
               lineHeight: 1.65, color: 'var(--aq-slate)', margin: 0,
               paddingTop: 24, borderTop: '1px solid var(--aq-rule)',
             }}>
-              <em style={{ color: 'var(--aq-deep)', fontStyle: 'normal', fontWeight: 400 }}>The risk is not faster output.</em> The risk is weaker judgment behind it. Careless AI use can narrow the range of ideas people generate and reduce the effort they put into thinking critically. AccioIQ closes that gap.
+              The risk is not faster output. The risk is weaker judgment behind it. Careless AI use can narrow the range of ideas people generate and reduce the effort they put into thinking critically. AccioIQ closes that gap.
             </p>
           </div>
         </div>
@@ -59,22 +57,16 @@ function HumanAdvantage() {
           borderTop: '1px solid var(--aq-rule)',
         }}>
           {capabilities.map((c, i) => (
-            <div key={c.n} style={{
+            <div key={c.t} style={{
               padding: isMobile ? '40px 0' : '56px 56px 64px',
               borderRight: !isMobile && i === 0 ? '1px solid var(--aq-rule)' : 'none',
               borderBottom: isMobile && i === 0 ? '1px solid var(--aq-rule)' : 'none',
               display: 'flex', flexDirection: 'column', gap: 20,
             }}>
-              <div style={{ display: 'flex', alignItems: 'baseline', gap: 16 }}>
-                <span style={{
-                  fontFamily: 'var(--font-body)', fontSize: 11, fontWeight: 400,
-                  letterSpacing: '0.22em', color: 'var(--aq-teal-dark)',
-                }}>{c.n}</span>
-                <span style={{
-                  fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 28 : 36,
-                  color: 'var(--aq-deep)', lineHeight: 1.1,
-                }}>{c.t}</span>
-              </div>
+              <div style={{
+                fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 28 : 36,
+                color: 'var(--aq-deep)', lineHeight: 1.1,
+              }}>{c.t}</div>
               <p style={{
                 fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: isMobile ? 15 : 17,
                 lineHeight: 1.65, color: 'var(--aq-slate)', margin: 0, maxWidth: 44 + 'ch',

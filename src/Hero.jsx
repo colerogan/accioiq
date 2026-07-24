@@ -71,7 +71,7 @@ function Hero({ accent = 'teal' }) {
           lineHeight: 1.0, letterSpacing: '-0.018em',
           color: 'var(--aq-parchment)', margin: 0, maxWidth: '15ch',
         }}>
-          Most AI consulting hands you a roadmap and <em style={emStyle}>leaves.</em>
+          Most AI consultants hand you a road map and leave.
         </h1>
 
         <div style={{
@@ -85,7 +85,7 @@ function Hero({ accent = 'teal' }) {
             fontSize: isMobile ? 16 : 19,
             lineHeight: 1.6, color: 'var(--aq-parchment)', margin: 0, maxWidth: 560,
           }}>
-            <span style={{ color: 'var(--aq-teal)' }}>We stay until the capability is genuinely yours.</span> We embed with your teams, learn your workflows, and solve the social and organizational change problems that prevent AI adoption. And as AI takes on more of the drafting and analysis, we build the two capabilities that matter most: critical thinking and creative thought.
+            We stay until the capability is genuinely yours. We embed with your teams, learn your workflows, and solve the social and organizational change problems that prevent AI adoption. And as AI takes on more of the drafting and analysis, we build the two capabilities that matter most: critical thinking and creative thought.
           </p>
           <div style={{
             borderLeft: isMobile ? 'none' : '1px solid rgba(216,228,220,.25)',

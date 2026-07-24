@@ -1,21 +1,21 @@
-// Registers.jsx — Three registers: Leadership · Labs · Teams
+// Registers.jsx — Three dimensions: Leadership · Labs · Teams
 function Registers() {
   const isMobile = useIsMobile();
   const items = [
     {
-      n: '01', t: 'Leadership',
+      n: '1', t: 'Leadership',
       sub: 'AI literacy for executives — on the decisions actually in front of them.',
-      b: 'We work with executives as peers. What AI can realistically do against the priorities on their desk right now — and what it can\'t. No hype. No horizon-scanning decks.',
+      b: 'We work with executives as peers. What AI can realistically do against the priorities on their desk right now — and what it cannot. No hype. No horizon-scanning decks.',
       bullets: ['Baseline AI literacy', 'Live priority mapping', 'Honest limits, named'],
     },
     {
-      n: '02', t: 'Labs',
+      n: '2', t: 'Labs',
       sub: 'Co-building working AI assistants for specific workflows.',
       b: 'Small, cross-functional teams with a real workflow problem. We co-build working assistants — forecasting, QBR prep, RFP drafting — tools people use on Monday.',
       bullets: ['Workflow diagnostics', 'Prompt and tool design', 'Measured adoption'],
     },
     {
-      n: '03', t: 'Teams',
+      n: '3', t: 'Teams',
       sub: 'Building the internal capability to keep going after we leave.',
       b: 'Organizational change is the real work. We identify internal champions, equip them with playbooks, and let the scaling happen through people your teams already trust.',
       bullets: ['Champion cohort', 'Shared playbooks', 'Firm-wide workshops'],
@@ -27,19 +27,19 @@ function Registers() {
       <div style={{ maxWidth: 1200, margin: '0 auto' }}>
         <div style={{ marginBottom: isMobile ? 40 : 72 }}>
           <div className="aq-eyebrow" style={{ color: 'var(--aq-teal-dark)', marginBottom: 20 }}>
-            Service framework · Three registers
+            Service framework
           </div>
           <h2 style={{
             fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 36 : 52,
             lineHeight: 1.08, color: 'var(--aq-deep)', letterSpacing: '-0.01em', margin: 0, maxWidth: 22 + 'ch',
           }}>
-            Leadership · Labs · <em style={{ color: 'var(--aq-teal-dark)' }}>Teams.</em>
+            Leadership · Labs · Teams.
           </h2>
           <p style={{
             fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: isMobile ? 15 : 17,
             lineHeight: 1.6, color: 'var(--aq-slate)', margin: '24px 0 0', maxWidth: 56 + 'ch',
           }}>
-            Three registers running simultaneously, because they depend on each other. Leadership without labs produces decks. Labs without teams produces demos. Teams without leadership produces enthusiasm that dies on Monday.
+            Three dimensions running simultaneously, because they depend on each other. Leadership without labs produces decks. Labs without teams produces demos. Teams without leadership produces enthusiasm that dies on Monday.
           </p>
         </div>
 

@@ -6,34 +6,26 @@
     const isMobile = useIsMobile();
     const months = [
       {
-        n: "Month 01",
+        n: "Month 1",
         t: "Executive Alignment",
         sub: "Setting a common AI language and adoption baseline.",
         who: "Executives \xB7 Operating leaders",
         out: ["Shared AI vocabulary", "Baseline adoption audit", "Live priorities mapped to AI leverage"]
       },
       {
-        n: "Month 02",
+        n: "Month 2",
         t: "Learning Labs",
         sub: "Focused cross-functional teams co-building tools on high-friction workflows.",
         who: "Internal champions \xB7 Workflow owners",
         out: ["2\u20133 working AI assistants", "Prompt libraries per workflow", "Measured time-saved on target tasks"]
       },
       {
-        n: "Month 03",
+        n: "Month 3",
         t: "All-Hands Upskilling",
         sub: "High-energy workshops led by internal champions to scale capability firm-wide.",
         who: "Full organization \xB7 Champion-led",
         out: ["Champion cohort established", "Playbooks circulated firm-wide", "Ongoing capability rhythm"]
       }
-    ];
-    const elements = [
-      { k: "Role", b: "Who the model is playing. Analyst, editor, translator." },
-      { k: "Task", b: "The specific thing being asked. One verb, one object." },
-      { k: "Context", b: "The situation, audience, and constraints that shape the answer." },
-      { k: "Examples", b: "Two or three demonstrations of what good looks like." },
-      { k: "Format", b: "Shape of the output. Bullets, table, two paragraphs." },
-      { k: "Constraints", b: "What not to do. Tone to avoid. Length caps. Off-limits material." }
     ];
     return /* @__PURE__ */ React.createElement("section", { id: "method", className: "aq-on-dark", style: {
       background: bg,
@@ -52,7 +44,7 @@
       color: "var(--aq-parchment)",
       letterSpacing: "-0.01em",
       margin: 0
-    } }, "A quarter to go from ", /* @__PURE__ */ React.createElement("em", null, "scattered"), " to ", /* @__PURE__ */ React.createElement("em", { style: { color: "var(--aq-teal)" } }, "shared"), ".")), /* @__PURE__ */ React.createElement("p", { style: {
+    } }, "A quarter to go from scattered to shared.")), /* @__PURE__ */ React.createElement("p", { style: {
       fontFamily: "var(--font-body)",
       fontWeight: 300,
       fontSize: isMobile ? 15 : 17,
@@ -123,38 +115,7 @@
       fontWeight: 300,
       fontSize: 15,
       color: "var(--aq-parchment)"
-    } }, /* @__PURE__ */ React.createElement("span", { style: { color: "var(--aq-teal)", fontFamily: "var(--font-body)", fontSize: 12, letterSpacing: "0.22em", paddingTop: 3 } }, "0", i + 1), /* @__PURE__ */ React.createElement("span", null, o)))))), /* @__PURE__ */ React.createElement("div", { style: { marginTop: isMobile ? 64 : 112 } }, /* @__PURE__ */ React.createElement("div", { style: {
-      display: "grid",
-      gridTemplateColumns: isMobile ? "1fr" : "1fr 1.6fr",
-      gap: isMobile ? 32 : 80,
-      alignItems: "start"
-    } }, /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { className: "aq-eyebrow", style: { color: "var(--aq-teal)", marginBottom: 16 } }, "What we teach"), /* @__PURE__ */ React.createElement("h3", { style: {
-      fontFamily: "var(--font-display)",
-      fontWeight: 400,
-      fontSize: isMobile ? 26 : 34,
-      lineHeight: 1.15,
-      color: "var(--aq-parchment)",
-      letterSpacing: "-0.005em",
-      margin: 0
-    } }, "The Six Elements of ", /* @__PURE__ */ React.createElement("em", null, "Effective Prompting.")), /* @__PURE__ */ React.createElement("p", { style: {
-      fontFamily: "var(--font-body)",
-      fontWeight: 300,
-      fontSize: 15,
-      lineHeight: 1.6,
-      color: "var(--aq-sage)",
-      margin: "20px 0 0",
-      maxWidth: "34ch"
-    } }, "A shared grammar we teach in every engagement. Champions use it to write prompts. Teams use it to critique them.")), /* @__PURE__ */ React.createElement("div", { style: {
-      display: "grid",
-      gridTemplateColumns: "repeat(3, 1fr)",
-      gap: 0,
-      borderTop: "1px solid rgba(216,228,220,.18)",
-      borderLeft: "1px solid rgba(216,228,220,.18)"
-    } }, elements.map((e, i) => /* @__PURE__ */ React.createElement("div", { key: e.k, style: {
-      padding: isMobile ? "20px 16px 24px" : "28px 24px 32px",
-      borderRight: "1px solid rgba(216,228,220,.18)",
-      borderBottom: "1px solid rgba(216,228,220,.18)"
-    } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "var(--font-body)", fontSize: 11, letterSpacing: "0.22em", color: "var(--aq-teal)", marginBottom: 12 } }, "0", i + 1), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "var(--font-display)", fontSize: isMobile ? 17 : 22, fontWeight: 400, color: "var(--aq-parchment)", marginBottom: 10 } }, e.k), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "var(--font-body)", fontWeight: 300, fontSize: 13, lineHeight: 1.55, color: "var(--aq-sage)" } }, e.b))))))));
+    } }, /* @__PURE__ */ React.createElement("span", { style: { color: "var(--aq-teal)", fontFamily: "var(--font-body)", fontSize: 12, letterSpacing: "0.22em", paddingTop: 3 } }, "0", i + 1), /* @__PURE__ */ React.createElement("span", null, o))))))));
   }
   window.Method = Method;
 })();

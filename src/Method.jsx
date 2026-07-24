@@ -6,33 +6,25 @@ function Method({ darkBg = 'deep' }) {
   const isMobile = useIsMobile();
   const months = [
     {
-      n: 'Month 01', t: 'Executive Alignment',
+      n: 'Month 1', t: 'Executive Alignment',
       sub: 'Setting a common AI language and adoption baseline.',
       who: 'Executives · Operating leaders',
       out: ['Shared AI vocabulary', 'Baseline adoption audit', 'Live priorities mapped to AI leverage'],
     },
     {
-      n: 'Month 02', t: 'Learning Labs',
+      n: 'Month 2', t: 'Learning Labs',
       sub: 'Focused cross-functional teams co-building tools on high-friction workflows.',
       who: 'Internal champions · Workflow owners',
       out: ['2–3 working AI assistants', 'Prompt libraries per workflow', 'Measured time-saved on target tasks'],
     },
     {
-      n: 'Month 03', t: 'All-Hands Upskilling',
+      n: 'Month 3', t: 'All-Hands Upskilling',
       sub: 'High-energy workshops led by internal champions to scale capability firm-wide.',
       who: 'Full organization · Champion-led',
       out: ['Champion cohort established', 'Playbooks circulated firm-wide', 'Ongoing capability rhythm'],
     },
   ];
 
-  const elements = [
-    { k: 'Role',       b: 'Who the model is playing. Analyst, editor, translator.' },
-    { k: 'Task',       b: 'The specific thing being asked. One verb, one object.' },
-    { k: 'Context',    b: 'The situation, audience, and constraints that shape the answer.' },
-    { k: 'Examples',   b: 'Two or three demonstrations of what good looks like.' },
-    { k: 'Format',     b: 'Shape of the output. Bullets, table, two paragraphs.' },
-    { k: 'Constraints',b: "What not to do. Tone to avoid. Length caps. Off-limits material." },
-  ];
 
   return (
     <section id="method" className="aq-on-dark" style={{
@@ -51,7 +43,7 @@ function Method({ darkBg = 'deep' }) {
               fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 32 : 52,
               lineHeight: 1.08, color: 'var(--aq-parchment)', letterSpacing: '-0.01em', margin: 0,
             }}>
-              A quarter to go from <em>scattered</em> to <em style={{ color: 'var(--aq-teal)' }}>shared</em>.
+              A quarter to go from scattered to shared.
             </h2>
           </div>
           <p style={{
@@ -141,46 +133,6 @@ function Method({ darkBg = 'deep' }) {
           </div>
         </div>
 
-        {/* Six elements */}
-        <div style={{ marginTop: isMobile ? 64 : 112 }}>
-          <div style={{
-            display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1.6fr',
-            gap: isMobile ? 32 : 80, alignItems: 'start',
-          }}>
-            <div>
-              <div className="aq-eyebrow" style={{ color: 'var(--aq-teal)', marginBottom: 16 }}>What we teach</div>
-              <h3 style={{
-                fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 26 : 34,
-                lineHeight: 1.15, color: 'var(--aq-parchment)', letterSpacing: '-0.005em', margin: 0,
-              }}>
-                The Six Elements of <em>Effective Prompting.</em>
-              </h3>
-              <p style={{
-                fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: 15,
-                lineHeight: 1.6, color: 'var(--aq-sage)', margin: '20px 0 0', maxWidth: 34 + 'ch',
-              }}>
-                A shared grammar we teach in every engagement. Champions use it to write prompts. Teams use it to critique them.
-              </p>
-            </div>
-            <div style={{
-              display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 0,
-              borderTop: '1px solid rgba(216,228,220,.18)',
-              borderLeft: '1px solid rgba(216,228,220,.18)',
-            }}>
-              {elements.map((e, i) => (
-                <div key={e.k} style={{
-                  padding: isMobile ? '20px 16px 24px' : '28px 24px 32px',
-                  borderRight: '1px solid rgba(216,228,220,.18)',
-                  borderBottom: '1px solid rgba(216,228,220,.18)',
-                }}>
-                  <div style={{ fontFamily: 'var(--font-body)', fontSize: 11, letterSpacing: '0.22em', color: 'var(--aq-teal)', marginBottom: 12 }}>0{i+1}</div>
-                  <div style={{ fontFamily: 'var(--font-display)', fontSize: isMobile ? 17 : 22, fontWeight: 400, color: 'var(--aq-parchment)', marginBottom: 10 }}>{e.k}</div>
-                  <div style={{ fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: 13, lineHeight: 1.55, color: 'var(--aq-sage)' }}>{e.b}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

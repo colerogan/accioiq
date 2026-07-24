@@ -20,7 +20,7 @@ function Contact({ darkBg = 'deep' }) {
               fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 32 : 52,
               lineHeight: 1.05, color: 'var(--aq-parchment)', letterSpacing: '-0.01em', margin: 0, maxWidth: 14 + 'ch',
             }}>
-              A first conversation is a <em style={{ color: 'var(--aq-teal)' }}>working session</em> — not a pitch.
+              A first conversation is a working session — not a pitch.
             </h2>
             <p style={{
               fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: isMobile ? 15 : 17,

@@ -77,7 +77,7 @@ function Team() {
             lineHeight: 1.08, color: 'var(--aq-deep)',
             letterSpacing: '-0.01em', margin: 0, maxWidth: 22 + 'ch',
           }}>
-            Partners who <em style={{ color: 'var(--aq-teal-dark)' }}>stay</em> in the room.
+            Partners who stay in the room.
           </h2>
         </div>
 
