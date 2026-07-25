@@ -1,6 +1,5 @@
 // Beliefs.jsx
-function Beliefs({ darkBg = 'forest' }) {
-  const bg = darkBg === 'deep' ? 'var(--aq-deep)' : 'var(--aq-forest)';
+function Beliefs() {
   const isMobile = useIsMobile();
   const beliefs = [
     { t: 'Capability over product.', b: 'AI is an organizational skill to be developed — not just a tool to be bought. The spend follows the capability, not the other way around.' },
@@ -10,25 +9,25 @@ function Beliefs({ darkBg = 'forest' }) {
     { t: 'The human advantage.', b: 'AI should not turn your people into passive reviewers of machine output. It should help them think better, decide better, and create better work. That is what we protect.' },
   ];
   return (
-    <section className="aq-on-dark" style={{ background: bg, padding: isMobile ? '72px 20px' : '128px 40px' }}>
+    <section style={{ background: 'var(--aq-parchment)', padding: isMobile ? '72px 20px' : '128px 40px' }}>
       <div style={{ maxWidth: 1200, margin: '0 auto' }}>
         <div style={{
           display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1.4fr',
           gap: isMobile ? 24 : 96, alignItems: 'start', marginBottom: isMobile ? 40 : 72,
         }}>
           <div>
-            <div className="aq-eyebrow" style={{ color: 'var(--aq-teal)', marginBottom: 20 }}>Core beliefs</div>
+            <div className="aq-eyebrow" style={{ color: 'var(--aq-teal-dark)', marginBottom: 20 }}>Core beliefs</div>
             <h2 style={{
               fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 32 : 48,
-              lineHeight: 1.1, color: 'var(--aq-parchment)', letterSpacing: '-0.01em', margin: 0,
+              lineHeight: 1.1, color: 'var(--aq-deep)', letterSpacing: '-0.01em', margin: 0,
             }}>
               Five things we will not compromise on.
             </h2>
           </div>
           <p style={{
             fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: isMobile ? 15 : 17,
-            lineHeight: 1.6, color: 'var(--aq-sage)', margin: 0,
-            paddingTop: 24, borderTop: '1px solid rgba(216,228,220,.18)',
+            lineHeight: 1.6, color: 'var(--aq-slate)', margin: 0,
+            paddingTop: 24, borderTop: '1px solid var(--aq-rule)',
           }}>
             These are not positioning statements. They are the beliefs that decide whether we take an engagement, how we scope it, and when we tell a client something they do not want to hear.
           </p>
@@ -36,22 +35,23 @@ function Beliefs({ darkBg = 'forest' }) {
 
         <div style={{
           display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'repeat(2, 1fr)', gap: 0,
-          borderTop: '1px solid rgba(216,228,220,.18)', borderLeft: '1px solid rgba(216,228,220,.18)',
+          borderTop: '1px solid var(--aq-rule)', borderLeft: '1px solid var(--aq-rule)',
         }}>
           {beliefs.map((b, idx) => (
             <div key={b.t} style={{
               padding: isMobile ? '32px 0 40px' : '48px 40px 56px',
-              borderRight: '1px solid rgba(216,228,220,.18)',
-              borderBottom: '1px solid rgba(216,228,220,.18)',
+              borderRight: '1px solid var(--aq-rule)',
+              borderBottom: '1px solid var(--aq-rule)',
               gridColumn: !isMobile && idx === 4 ? '1 / -1' : 'auto',
               display: 'flex', flexDirection: 'column', gap: 16,
+              background: 'var(--aq-white)',
             }}>
               <div style={{
                 fontFamily: 'var(--font-display)', fontWeight: 400,
                 fontSize: isMobile ? 24 : 34, lineHeight: 1.2,
-                color: 'var(--aq-parchment)', letterSpacing: '-0.005em', maxWidth: 22 + 'ch',
+                color: 'var(--aq-deep)', letterSpacing: '-0.005em', maxWidth: 22 + 'ch',
               }}>{b.t}</div>
-              <p style={{ fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: 15, lineHeight: 1.6, color: 'var(--aq-sage)', margin: 0, maxWidth: 44 + 'ch' }}>{b.b}</p>
+              <p style={{ fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: 15, lineHeight: 1.6, color: 'var(--aq-slate)', margin: 0, maxWidth: 44 + 'ch' }}>{b.b}</p>
             </div>
           ))}
         </div>
