@@ -115,7 +115,7 @@
       fontWeight: 300,
       fontSize: 15,
       color: "var(--aq-parchment)"
-    } }, /* @__PURE__ */ React.createElement("span", { style: { color: "var(--aq-teal)", fontFamily: "var(--font-body)", fontSize: 12, letterSpacing: "0.22em", paddingTop: 3 } }, "0", i + 1), /* @__PURE__ */ React.createElement("span", null, o))))))));
+    } }, /* @__PURE__ */ React.createElement("span", { style: { color: "var(--aq-teal)", fontFamily: "var(--font-body)", fontSize: 12, paddingTop: 3 } }, "\xB7"), /* @__PURE__ */ React.createElement("span", null, o))))))));
   }
   window.Method = Method;
 })();

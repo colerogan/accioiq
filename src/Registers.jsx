@@ -3,19 +3,19 @@ function Registers() {
   const isMobile = useIsMobile();
   const items = [
     {
-      n: '1', t: 'Leadership',
+      t: 'Leadership',
       sub: 'AI literacy for executives — on the decisions actually in front of them.',
       b: 'We work with executives as peers. What AI can realistically do against the priorities on their desk right now — and what it cannot. No hype. No horizon-scanning decks.',
       bullets: ['Baseline AI literacy', 'Live priority mapping', 'Honest limits, named'],
     },
     {
-      n: '2', t: 'Labs',
+      t: 'Labs',
       sub: 'Co-building working AI assistants for specific workflows.',
       b: 'Small, cross-functional teams with a real workflow problem. We co-build working assistants — forecasting, QBR prep, RFP drafting — tools people use on Monday.',
       bullets: ['Workflow diagnostics', 'Prompt and tool design', 'Measured adoption'],
     },
     {
-      n: '3', t: 'Teams',
+      t: 'Teams',
       sub: 'Building the internal capability to keep going after we leave.',
       b: 'Organizational change is the real work. We identify internal champions, equip them with playbooks, and let the scaling happen through people your teams already trust.',
       bullets: ['Champion cohort', 'Shared playbooks', 'Firm-wide workshops'],
@@ -48,7 +48,7 @@ function Registers() {
           borderTop: '1px solid var(--aq-rule)', borderBottom: '1px solid var(--aq-rule)',
         }}>
           {items.map((it, i) => (
-            <article key={it.n} style={{
+            <article key={it.t} style={{
               padding: isMobile ? '32px 0' : '48px 36px 56px',
               borderRight: !isMobile && i < 2 ? '1px solid var(--aq-rule)' : 'none',
               borderBottom: isMobile && i < 2 ? '1px solid var(--aq-rule)' : 'none',
@@ -57,10 +57,7 @@ function Registers() {
             }}
             onMouseEnter={(e) => e.currentTarget.style.background = 'var(--aq-white)'}
             onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}>
-              <div style={{ display: 'flex', alignItems: 'baseline', gap: 16 }}>
-                <span style={{ fontFamily: 'var(--font-display)', fontSize: isMobile ? 36 : 48, fontWeight: 400, color: 'var(--aq-teal-dark)', lineHeight: 1 }}>{it.n}</span>
-                <span style={{ fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 24 : 30, color: 'var(--aq-deep)' }}>{it.t}</span>
-              </div>
+              <div style={{ fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 24 : 30, color: 'var(--aq-deep)' }}>{it.t}</div>
               <div style={{ fontFamily: 'var(--font-display)', fontStyle: 'italic', fontSize: 17, lineHeight: 1.35, color: 'var(--aq-slate)' }}>{it.sub}</div>
               <p style={{ fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: 15, lineHeight: 1.6, color: 'var(--aq-slate)', margin: 0 }}>{it.b}</p>
               <ul style={{ listStyle: 'none', padding: 0, margin: '16px 0 0', borderTop: '1px solid var(--aq-rule)' }}>
