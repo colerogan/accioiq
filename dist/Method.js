@@ -49,7 +49,7 @@
       color: "var(--aq-sage)",
       margin: 0,
       maxWidth: "52ch"
-    } }, "Ninety days is enough to move an organization from scattered AI experimentation to shared capability \u2014 if the work is sequenced, co-built, and led by the people who have to live with the result.")), /* @__PURE__ */ React.createElement("div", { style: { position: "relative", marginBottom: 24 } }, !isMobile && /* @__PURE__ */ React.createElement("div", { style: {
+    } }, "Ninety days is enough to move an organization from scattered AI experimentation to shared capability, if the work is sequenced, co-built, and led by the people who have to live with the result.")), /* @__PURE__ */ React.createElement("div", { style: { position: "relative", marginBottom: 24 } }, !isMobile && /* @__PURE__ */ React.createElement("div", { style: {
       position: "absolute",
       left: 0,
       right: 0,

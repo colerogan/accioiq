@@ -2,7 +2,7 @@
   function Beliefs() {
     const isMobile = useIsMobile();
     const beliefs = [
-      { t: "Capability over product.", b: "AI is an organizational skill to be developed \u2014 not just a tool to be bought. The spend follows the capability, not the other way around." },
+      { t: "Capability over product.", b: "AI is an organizational skill to be developed, not just a tool to be bought. The spend follows the capability, not the other way around." },
       { t: "The hard part is human.", b: "AI failures happen when the human side is an afterthought. Most of the hard work is social, not technical." },
       { t: "Honest limits.", b: "Naming AI's constraints and risks transparently is required for trust. We tell leaders what AI cannot do as readily as what it can." },
       { t: "Co-design.", b: "Only co-built solutions actually stick. If your team did not help design it, they will not defend it when it breaks." },

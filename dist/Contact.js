@@ -20,7 +20,7 @@
       letterSpacing: "-0.01em",
       margin: 0,
       maxWidth: "14ch"
-    } }, "A first conversation is a working session \u2014 not a pitch."), /* @__PURE__ */ React.createElement("p", { style: {
+    } }, "A first conversation is a working session, not a pitch."), /* @__PURE__ */ React.createElement("p", { style: {
       fontFamily: "var(--font-body)",
       fontWeight: 300,
       fontSize: isMobile ? 15 : 17,
@@ -28,7 +28,7 @@
       color: "var(--aq-sage)",
       margin: "32px 0 0",
       maxWidth: "46ch"
-    } }, "We'll map where AI is realistic inside your organization, and what it takes to make it stick. A paragraph is plenty \u2014 tell us what you're trying to figure out."), /* @__PURE__ */ React.createElement("div", { style: {
+    } }, "We'll map where AI is realistic inside your organization, and what it takes to make it stick. A paragraph is plenty. Tell us what you're trying to figure out."), /* @__PURE__ */ React.createElement("div", { style: {
       marginTop: 56,
       paddingTop: 28,
       borderTop: "1px solid rgba(216,228,220,.18)",
@@ -42,7 +42,7 @@
       display: "flex",
       flexDirection: "column",
       gap: 20
-    } }, /* @__PURE__ */ React.createElement("div", { className: "aq-eyebrow", style: { color: "var(--aq-teal)" } }, "Received"), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "var(--font-display)", fontSize: isMobile ? 24 : 32, color: "var(--aq-parchment)", lineHeight: 1.2 } }, "Thanks, ", form.name || "we got it", " \u2014 we'll reply within a business day."), /* @__PURE__ */ React.createElement("p", { style: { fontFamily: "var(--font-body)", fontWeight: 300, fontSize: 15, color: "var(--aq-sage)", margin: 0 } }, "A partner will read this personally. No autoresponder after this one."), /* @__PURE__ */ React.createElement(
+    } }, /* @__PURE__ */ React.createElement("div", { className: "aq-eyebrow", style: { color: "var(--aq-teal)" } }, "Received"), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "var(--font-display)", fontSize: isMobile ? 24 : 32, color: "var(--aq-parchment)", lineHeight: 1.2 } }, "Thanks, ", form.name || "we got it", ". We'll reply within a business day."), /* @__PURE__ */ React.createElement("p", { style: { fontFamily: "var(--font-body)", fontWeight: 300, fontSize: 15, color: "var(--aq-sage)", margin: 0 } }, "A partner will read this personally. No autoresponder after this one."), /* @__PURE__ */ React.createElement(
       "button",
       {
         onClick: () => setSent(false),
@@ -52,7 +52,7 @@
       "Send another"
     )) : /* @__PURE__ */ React.createElement("form", { onSubmit: (e) => {
       e.preventDefault();
-      const subject = `AccioIQ consultation request \u2014 ${form.name || "New inquiry"}`;
+      const subject = `AccioIQ consultation request: ${form.name || "New inquiry"}`;
       const body = `Name: ${form.name}
 Organization: ${form.org}
 Email: ${form.email}

@@ -6,18 +6,18 @@ function Philosophy() {
       tag: 'Phase one',
       t: 'Learn the work',
       b: 'We embed within your teams to learn culture and workflows from the ground floor. Not from a conference room. Not from a discovery deck. From inside.',
-      detail: 'We shadow. We sit in meetings. We ask obvious questions. Before we propose anything, we understand how the work actually gets done — including the parts that never make it into a process doc.',
+      detail: 'We shadow. We sit in meetings. We ask obvious questions. Before we propose anything, we understand how the work actually gets done, including the parts that never make it into a process doc.',
     },
     {
       tag: 'Phase two',
       t: 'Build with you',
-      b: 'We co-build solutions that feel native to your organization — not forced upon it. Tools your people helped design, on workflows they actually run.',
+      b: 'We co-build solutions that feel native to your organization, not forced upon it. Tools your people helped design, on workflows they actually run.',
       detail: 'Co-design is the method. Your team owns the problem and the artifact. We bring AI fluency, prompt design, and the discipline of keeping things small until they work.',
     },
     {
       tag: 'Phase three',
       t: 'Leave it yours',
-      b: 'We stay until the capability is fully yours. Internal champions lead. External consultants leave. The change is permanent — or it was not change.',
+      b: 'We stay until the capability is fully yours. Internal champions lead. External consultants leave. The change is permanent, or it was not change.',
       detail: 'Success is measured by what happens after we are gone. Champions keep building. Playbooks keep circulating. The organization gets better at AI without us in the room.',
     },
   ];
@@ -41,7 +41,7 @@ function Philosophy() {
             fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: isMobile ? 15 : 18,
             lineHeight: 1.65, color: 'var(--aq-slate)', margin: 0, maxWidth: 52 + 'ch',
           }}>
-            Three phases, in order, across a single engagement. The sequence matters — skip a phase and the capability does not stick.
+            Three phases, in order, across a single engagement. The sequence matters. Skip a phase and the capability does not stick.
           </p>
         </div>
 

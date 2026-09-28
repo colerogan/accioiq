@@ -50,7 +50,7 @@ function Method({ darkBg = 'deep' }) {
             fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: isMobile ? 15 : 17,
             lineHeight: 1.6, color: 'var(--aq-sage)', margin: 0, maxWidth: 52 + 'ch',
           }}>
-            Ninety days is enough to move an organization from scattered AI experimentation to shared capability — if the work is sequenced, co-built, and led by the people who have to live with the result.
+            Ninety days is enough to move an organization from scattered AI experimentation to shared capability, if the work is sequenced, co-built, and led by the people who have to live with the result.
           </p>
         </div>
 

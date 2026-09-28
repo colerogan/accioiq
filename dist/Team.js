@@ -7,7 +7,7 @@
         name: "Matt Lucas",
         role: "Co-Founder & Partner",
         short: "Generative AI subject expert. Vice Chair for AI Strategy at Skidmore. Former global executive at Bose, Samsung, Coty.",
-        bio: "Matt is a Co-Founder of AccioIQ and a generative-AI subject expert who translates frontier capability into commercial outcomes. He serves as Professor of Business and Vice Chair for AI Strategy at Skidmore College, where he holds the F. William Harder Chair of Business Administration and teaches Foundations with Generative AI and AI-Powered Selling. Matt brings two decades of senior executive leadership at global consumer brands \u2014 Global VP of Consumer Sales at Bose, SVP at Samsung U.S., SVP of Sales at Coty Beauty U.S., with earlier roles at Novartis Consumer Health and Procter & Gamble \u2014 and pairs that operator's instinct with a working command of how generative AI actually changes how teams sell, plan, and decide.",
+        bio: "Matt is a Co-Founder of AccioIQ and a generative-AI subject expert who translates frontier capability into commercial outcomes. He serves as Professor of Business and Vice Chair for AI Strategy at Skidmore College, where he holds the F. William Harder Chair of Business Administration and teaches Foundations with Generative AI and AI-Powered Selling. Matt brings two decades of senior executive leadership at global consumer brands, including Global VP of Consumer Sales at Bose, SVP at Samsung U.S., SVP of Sales at Coty Beauty U.S., with earlier roles at Novartis Consumer Health and Procter & Gamble, and pairs that operator's instinct with a working command of how generative AI actually changes how teams sell, plan, and decide.",
         initials: "ML",
         stats: [
           { n: "AI Strategy", b: "Vice Chair for AI Strategy, Skidmore College." },
@@ -31,23 +31,23 @@
         name: "Sean Craine",
         role: "VP of Strategic Partnerships",
         short: "Nearly two decades of commercial leadership in life sciences. Harvard Business School General Management Program. Bridges science, strategy, and AI.",
-        bio: "Sean brings nearly two decades of commercial leadership in the life sciences industry, with a career defined by building high-value partnerships between complex organizations and the scientific capabilities that accelerate their missions. His background spans senior leadership roles in the Life Science Industry where he led enterprise account teams and managed large, multi-stakeholder portfolios across major pharmaceutical and biotechnology clients. Throughout his career, Sean has worked at the intersection of science and strategy, helping organizations navigate complex procurement relationships, align commercial priorities, and drive growth at scale. A graduate of the University of Vermont with a B.S. in Biology, Sean also completed the Harvard Business School General Management Program focusing on digital business strategy and finance. These foundations \u2014 scientific literacy, rigorous business training, and decades of frontline commercial experience \u2014 uniquely position him to help organizations identify where AI can create measurable impact and translate that potential into operational reality.",
+        bio: "Sean brings nearly two decades of commercial leadership in the life sciences industry, with a career defined by building high-value partnerships between complex organizations and the scientific capabilities that accelerate their missions. His background spans senior leadership roles in the Life Science Industry where he led enterprise account teams and managed large, multi-stakeholder portfolios across major pharmaceutical and biotechnology clients. Throughout his career, Sean has worked at the intersection of science and strategy, helping organizations navigate complex procurement relationships, align commercial priorities, and drive growth at scale. A graduate of the University of Vermont with a B.S. in Biology, Sean also completed the Harvard Business School General Management Program focusing on digital business strategy and finance. These foundations, scientific literacy, rigorous business training, and decades of frontline commercial experience, uniquely position him to help organizations identify where AI can create measurable impact and translate that potential into operational reality.",
         initials: "SC",
         stats: [
           { n: "20 yrs", b: "Senior commercial leadership in life sciences and biopharma." },
-          { n: "HBS", b: "Harvard Business School General Management Program \u2014 digital strategy and finance." },
+          { n: "HBS", b: "Harvard Business School General Management Program, digital strategy and finance." },
           { n: "UVM", b: "B.S. in Biology, University of Vermont." }
         ]
       },
       {
         name: "Cole Rogan",
         role: "Associate",
-        short: "Built CoachCole \u2014 AccioIQ's first product, used by NCAA D1-D3 soccer programs.",
-        bio: "Cole is deeply involved in client engagements at AccioIQ. He brings professional AI consulting experience at Selective Insurance \u2014 a large insurance company \u2014 where he examined internal workflows, built AI agents, and served as a prompt engineer to create tools that have saved teams thousands of hours of repetitive work. Cole also built CoachCole \u2014 AccioIQ's first product \u2014 an elite NCAA soccer scouting tool actively used by head coaches competing in Divisions 1, 2, and 3. He uses his expertise to contribute to AI solutions that feel clear and native by the time they ship.",
+        short: "Built CoachCole, AccioIQ's first product, used by NCAA D1-D3 soccer programs.",
+        bio: "Cole is deeply involved in client engagements at AccioIQ. He brings professional AI consulting experience at Selective Insurance, a large insurance company, where he examined internal workflows, built AI agents, and served as a prompt engineer to create tools that have saved teams thousands of hours of repetitive work. Cole also built CoachCole, AccioIQ's first product, an elite NCAA soccer scouting tool actively used by head coaches competing in Divisions 1, 2, and 3. He uses his expertise to contribute to AI solutions that feel clear and native by the time they ship.",
         initials: "CR",
         stats: [
           { n: "1,000s", b: "Of hours of repetitive work eliminated for teams at Selective Insurance." },
-          { n: "CoachCole", b: "Built AccioIQ's first product \u2014 a scouting tool used across NCAA D1-D3 soccer." },
+          { n: "CoachCole", b: "Built AccioIQ's first product, a scouting tool used across NCAA D1-D3 soccer." },
           { n: "AI Consulting", b: "Professional AI consulting experience at a large insurance company." }
         ]
       },
@@ -67,10 +67,10 @@
         name: "Jazlin Chen",
         role: "Associate",
         short: "AI workflow engineering, agent development, and startup acceleration experience across client engagements.",
-        bio: "Jazlin works across client engagements at AccioIQ, helping organizations implement AI through workflow engineering, agent development, and strategic business solutions. She brings impactful experiences spanning startup acceleration, venture capital, and AI consulting. During her time at Startupbootcamp Amsterdam \u2014 Europe's leading startup accelerator \u2014 she worked with early-stage founders exploring AI-driven growth and operational strategy. She has also developed and implemented AI-powered workflow solutions, built custom GPTs, AI applications, and automation tools that streamline business processes. At AccioIQ, Jazlin combines a strategic business perspective with hands-on AI implementation to help clients adopt solutions that are intuitive, scalable, and designed to create lasting value.",
+        bio: "Jazlin works across client engagements at AccioIQ, helping organizations implement AI through workflow engineering, agent development, and strategic business solutions. She brings impactful experiences spanning startup acceleration, venture capital, and AI consulting. During her time at Startupbootcamp Amsterdam, Europe's leading startup accelerator, she worked with early-stage founders exploring AI-driven growth and operational strategy. She has also developed and implemented AI-powered workflow solutions, built custom GPTs, AI applications, and automation tools that streamline business processes. At AccioIQ, Jazlin combines a strategic business perspective with hands-on AI implementation to help clients adopt solutions that are intuitive, scalable, and designed to create lasting value.",
         initials: "JC",
         stats: [
-          { n: "Startupbootcamp", b: "Europe's leading startup accelerator \u2014 AI-driven growth and operational strategy." },
+          { n: "Startupbootcamp", b: "Europe's leading startup accelerator, AI-driven growth and operational strategy." },
           { n: "AI Workflows", b: "Custom GPTs, AI applications, and automation tools that streamline business processes." },
           { n: "VC & Strategy", b: "Venture capital and startup acceleration experience." }
         ]

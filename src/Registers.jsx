@@ -4,14 +4,14 @@ function Registers() {
   const items = [
     {
       t: 'Leadership',
-      sub: 'AI literacy for executives — on the decisions actually in front of them.',
-      b: 'We work with executives as peers. What AI can realistically do against the priorities on their desk right now — and what it cannot. No hype. No horizon-scanning decks.',
+      sub: 'AI literacy for executives, on the decisions actually in front of them.',
+      b: 'We work with executives as peers. What AI can realistically do against the priorities on their desk right now, and what it cannot. No hype. No horizon-scanning decks.',
       bullets: ['Baseline AI literacy', 'Live priority mapping', 'Honest limits, named'],
     },
     {
       t: 'Labs',
       sub: 'Co-building working AI assistants for specific workflows.',
-      b: 'Small, cross-functional teams with a real workflow problem. We co-build working assistants — forecasting, QBR prep, RFP drafting — tools people use on Monday.',
+      b: 'Small, cross-functional teams with a real workflow problem. We co-build working assistants: forecasting, QBR prep, RFP drafting. Tools people use on Monday.',
       bullets: ['Workflow diagnostics', 'Prompt and tool design', 'Measured adoption'],
     },
     {

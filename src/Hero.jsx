@@ -133,7 +133,7 @@ function Hero({ accent = 'teal' }) {
           borderTop: '1px solid rgba(216,228,220,.12)',
           display: 'flex', flexWrap: 'wrap', gap: '8px 20px',
         }}>
-          <span className="aq-eyebrow" style={{ color: 'var(--aq-sage)', marginRight: 12 }}>We say —</span>
+          <span className="aq-eyebrow" style={{ color: 'var(--aq-sage)', marginRight: 12 }}>We say:</span>
           {vocab.map((v, i) => (
             <span key={v} style={{
               fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: 12,

@@ -13,7 +13,7 @@
         headline: 'From "what is this tool?" to 16 agents shipped in six months.',
         stat: "16+",
         statLabel: "agents shipped across robotics, automotive and healthcare",
-        detail: "A global software company across robotics, automotive, and healthcare had leadership commit to AI before the organization understood it. We embedded across six cohorts, co-built 16+ working agents, and grew active users to 48 \u2014 with team confidence rising from 6.4 to 8.0 out of 10 and prompt usage growing over 300%. Leadership committed first. That is what made it stick."
+        detail: "A global software company across robotics, automotive, and healthcare had leadership commit to AI before the organization understood it. We embedded across six cohorts, co-built 16+ working agents, and grew active users to 48, with team confidence rising from 6.4 to 8.0 out of 10 and prompt usage growing over 300%. Leadership committed first. That is what made it stick."
       },
       {
         t: "Regional Leaders",
@@ -23,7 +23,7 @@
         headline: "AI-generated first drafts of category scorecards, trusted by the team.",
         stat: "20 yrs",
         statLabel: "of proprietary IP encoded into custom assistants",
-        detail: "A PE diligence firm sat on two decades of scorecard IP \u2014 locked in PDFs and analysts' heads. We co-designed custom assistants trained on that corpus, and worked with senior analysts until they trusted the AI first drafts enough to build on them. The edit, not the blank page, became the starting point."
+        detail: "A PE diligence firm sat on two decades of scorecard IP, locked in PDFs and analysts' heads. We co-designed custom assistants trained on that corpus, and worked with senior analysts until they trusted the AI first drafts enough to build on them. The edit, not the blank page, became the starting point."
       },
       {
         t: "Impact Foundations",
@@ -33,7 +33,7 @@
         headline: "The same methodology that works at global scale also works for a 60-year-old nonprofit.",
         stat: "4",
         statLabel: "custom Learning Labs built in a single 90-day engagement",
-        detail: "A performing arts nonprofit with a small team came to us not because they had an AI budget but because they were running out of capacity. We right-sized the Leadership, Labs, and Teams approach \u2014 four custom Learning Labs, real workflows, real tools. The result was not a deployment. It was a team that knew how to keep going."
+        detail: "A performing arts nonprofit with a small team came to us not because they had an AI budget but because they were running out of capacity. We right-sized the Leadership, Labs, and Teams approach: four custom Learning Labs, real workflows, real tools. The result was not a deployment. It was a team that knew how to keep going."
       },
       {
         t: "Product Builders",

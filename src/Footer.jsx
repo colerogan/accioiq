@@ -16,7 +16,7 @@ function Footer() {
             Accio<span style={{ fontFamily: 'var(--font-body)', fontWeight: 500, color: 'var(--aq-teal)' }}>IQ</span>
           </div>
           <div style={{ fontFamily: 'var(--font-display)', fontStyle: 'italic', fontSize: 18, color: 'var(--aq-sage)', marginTop: 10, maxWidth: 28 + 'ch' }}>
-            AI from the inside out — until the capability is yours.
+            AI from the inside out, until the capability is yours.
           </div>
         </div>
         {[

@@ -144,7 +144,7 @@
       display: "flex",
       flexWrap: "wrap",
       gap: "8px 20px"
-    } }, /* @__PURE__ */ React.createElement("span", { className: "aq-eyebrow", style: { color: "var(--aq-sage)", marginRight: 12 } }, "We say \u2014"), vocab.map((v, i) => /* @__PURE__ */ React.createElement("span", { key: v, style: {
+    } }, /* @__PURE__ */ React.createElement("span", { className: "aq-eyebrow", style: { color: "var(--aq-sage)", marginRight: 12 } }, "We say:"), vocab.map((v, i) => /* @__PURE__ */ React.createElement("span", { key: v, style: {
       fontFamily: "var(--font-body)",
       fontWeight: 300,
       fontSize: 12,

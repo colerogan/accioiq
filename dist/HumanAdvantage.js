@@ -6,13 +6,13 @@
         t: "Critical Thinking",
         b: "Question assumptions, evaluate AI outputs, weigh evidence, recognize bias, and decide what is good enough to act on.",
         stat: "69%",
-        statLabel: "of employers rank analytical thinking as the most essential skill \u2014 WEF, 2025"
+        statLabel: "of employers rank analytical thinking as the most essential skill (WEF, 2025)"
       },
       {
         t: "Creative Thought",
         b: "Reframe problems, generate stronger options, combine ideas in useful ways, and move past the first obvious answer.",
         stat: "57%",
-        statLabel: "say creative thinking is essential and rising through 2030 \u2014 WEF, 2025"
+        statLabel: "say creative thinking is essential and rising through 2030 (WEF, 2025)"
       }
     ];
     return /* @__PURE__ */ React.createElement("section", { style: { background: "var(--aq-parchment)", padding: isMobile ? "72px 20px" : "128px 40px" } }, /* @__PURE__ */ React.createElement("div", { style: { maxWidth: 1200, margin: "0 auto" } }, /* @__PURE__ */ React.createElement("div", { style: {
@@ -36,7 +36,7 @@
       lineHeight: 1.65,
       color: "var(--aq-slate)",
       margin: "0 0 24px"
-    } }, "Most AI promises are about cutting costs or saving time. The real shift is different. As AI takes on more of the drafting, summarizing, and analysis, two human capabilities become more valuable \u2014 not less. We build both into how your organization adopts AI."), /* @__PURE__ */ React.createElement("p", { style: {
+    } }, "Most AI promises are about cutting costs or saving time. The real shift is different. As AI takes on more of the drafting, summarizing, and analysis, two human capabilities become more valuable, not less. We build both into how your organization adopts AI."), /* @__PURE__ */ React.createElement("p", { style: {
       fontFamily: "var(--font-body)",
       fontWeight: 300,
       fontSize: isMobile ? 15 : 18,
@@ -123,7 +123,7 @@
       lineHeight: 1.65,
       color: "var(--aq-slate)",
       margin: 0
-    } }, "It should help them think better, decide better, and create better work. That is what the human advantage protects \u2014 and what makes the capability genuinely yours."))));
+    } }, "It should help them think better, decide better, and create better work. That is what the human advantage protects, and what makes the capability genuinely yours."))));
   }
   window.HumanAdvantage = HumanAdvantage;
 })();

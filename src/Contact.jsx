@@ -20,13 +20,13 @@ function Contact({ darkBg = 'deep' }) {
               fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 32 : 52,
               lineHeight: 1.05, color: 'var(--aq-parchment)', letterSpacing: '-0.01em', margin: 0, maxWidth: 14 + 'ch',
             }}>
-              A first conversation is a working session — not a pitch.
+              A first conversation is a working session, not a pitch.
             </h2>
             <p style={{
               fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: isMobile ? 15 : 17,
               lineHeight: 1.65, color: 'var(--aq-sage)', margin: '32px 0 0', maxWidth: 46 + 'ch',
             }}>
-              We'll map where AI is realistic inside your organization, and what it takes to make it stick. A paragraph is plenty — tell us what you're trying to figure out.
+              We'll map where AI is realistic inside your organization, and what it takes to make it stick. A paragraph is plenty. Tell us what you're trying to figure out.
             </p>
             <div style={{
               marginTop: 56, paddingTop: 28, borderTop: '1px solid rgba(216,228,220,.18)',
@@ -50,7 +50,7 @@ function Contact({ darkBg = 'deep' }) {
             }}>
               <div className="aq-eyebrow" style={{ color: 'var(--aq-teal)' }}>Received</div>
               <div style={{ fontFamily: 'var(--font-display)', fontSize: isMobile ? 24 : 32, color: 'var(--aq-parchment)', lineHeight: 1.2 }}>
-                Thanks, {form.name || 'we got it'} — we'll reply within a business day.
+                Thanks, {form.name || 'we got it'}. We'll reply within a business day.
               </div>
               <p style={{ fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: 15, color: 'var(--aq-sage)', margin: 0 }}>
                 A partner will read this personally. No autoresponder after this one.
@@ -63,7 +63,7 @@ function Contact({ darkBg = 'deep' }) {
           ) : (
             <form onSubmit={(e) => {
               e.preventDefault();
-              const subject = `AccioIQ consultation request — ${form.name || 'New inquiry'}`;
+              const subject = `AccioIQ consultation request: ${form.name || 'New inquiry'}`;
               const body = `Name: ${form.name}\nOrganization: ${form.org}\nEmail: ${form.email}\nPrimary focus: ${form.focus}\n\nWhat they're trying to figure out:\n${form.msg}\n`;
               const mailto = `mailto:team@accioiq.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
               window.open(mailto, '_blank');

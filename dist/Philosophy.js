@@ -6,18 +6,18 @@
         tag: "Phase one",
         t: "Learn the work",
         b: "We embed within your teams to learn culture and workflows from the ground floor. Not from a conference room. Not from a discovery deck. From inside.",
-        detail: "We shadow. We sit in meetings. We ask obvious questions. Before we propose anything, we understand how the work actually gets done \u2014 including the parts that never make it into a process doc."
+        detail: "We shadow. We sit in meetings. We ask obvious questions. Before we propose anything, we understand how the work actually gets done, including the parts that never make it into a process doc."
       },
       {
         tag: "Phase two",
         t: "Build with you",
-        b: "We co-build solutions that feel native to your organization \u2014 not forced upon it. Tools your people helped design, on workflows they actually run.",
+        b: "We co-build solutions that feel native to your organization, not forced upon it. Tools your people helped design, on workflows they actually run.",
         detail: "Co-design is the method. Your team owns the problem and the artifact. We bring AI fluency, prompt design, and the discipline of keeping things small until they work."
       },
       {
         tag: "Phase three",
         t: "Leave it yours",
-        b: "We stay until the capability is fully yours. Internal champions lead. External consultants leave. The change is permanent \u2014 or it was not change.",
+        b: "We stay until the capability is fully yours. Internal champions lead. External consultants leave. The change is permanent, or it was not change.",
         detail: "Success is measured by what happens after we are gone. Champions keep building. Playbooks keep circulating. The organization gets better at AI without us in the room."
       }
     ];
@@ -40,7 +40,7 @@
       color: "var(--aq-slate)",
       margin: 0,
       maxWidth: "52ch"
-    } }, "Three phases, in order, across a single engagement. The sequence matters \u2014 skip a phase and the capability does not stick.")), /* @__PURE__ */ React.createElement("div", { style: { borderTop: "1px solid var(--aq-rule)" } }, phases.map((p) => /* @__PURE__ */ React.createElement("div", { key: p.t, style: {
+    } }, "Three phases, in order, across a single engagement. The sequence matters. Skip a phase and the capability does not stick.")), /* @__PURE__ */ React.createElement("div", { style: { borderTop: "1px solid var(--aq-rule)" } }, phases.map((p) => /* @__PURE__ */ React.createElement("div", { key: p.t, style: {
       borderBottom: "1px solid var(--aq-rule)",
       padding: isMobile ? "32px 0" : "48px 0",
       display: "grid",
