@@ -6,19 +6,19 @@ function Method({ darkBg = 'deep' }) {
   const isMobile = useIsMobile();
   const months = [
     {
-      n: 'Month 1', t: 'Executive Alignment',
+      t: 'Executive Alignment',
       sub: 'Setting a common AI language and adoption baseline.',
       who: 'Executives · Operating leaders',
       out: ['Shared AI vocabulary', 'Baseline adoption audit', 'Live priorities mapped to AI leverage'],
     },
     {
-      n: 'Month 2', t: 'Learning Labs',
+      t: 'Learning Labs',
       sub: 'Focused cross-functional teams co-building tools on high-friction workflows.',
       who: 'Internal champions · Workflow owners',
       out: ['2–3 working AI assistants', 'Prompt libraries per workflow', 'Measured time-saved on target tasks'],
     },
     {
-      n: 'Month 3', t: 'All-Hands Upskilling',
+      t: 'All-Hands Upskilling',
       sub: 'High-energy workshops led by internal champions to scale capability firm-wide.',
       who: 'Full organization · Champion-led',
       out: ['Champion cohort established', 'Playbooks circulated firm-wide', 'Ongoing capability rhythm'],
@@ -80,13 +80,10 @@ function Method({ darkBg = 'deep' }) {
                   marginBottom: isMobile ? 0 : 20,
                   transition: 'background 320ms var(--ease-out)',
                 }} />
-                <div>
-                  <div className="aq-eyebrow" style={{ color: month === i ? 'var(--aq-teal)' : 'var(--aq-sage)', marginBottom: 4 }}>{m.n}</div>
-                  <div style={{
-                    fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 18 : 24,
-                    color: 'var(--aq-parchment)', lineHeight: 1.2,
-                  }}>{m.t}</div>
-                </div>
+                <div style={{
+                  fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: isMobile ? 18 : 24,
+                  color: 'var(--aq-parchment)', lineHeight: 1.2,
+                }}>{m.t}</div>
               </button>
             ))}
           </div>
@@ -101,7 +98,7 @@ function Method({ darkBg = 'deep' }) {
         }}>
           <div>
             <div className="aq-eyebrow" style={{ color: 'var(--aq-teal)', marginBottom: 16 }}>
-              {months[month].n} · Focus
+              Focus
             </div>
             <p style={{
               fontFamily: 'var(--font-display)', fontStyle: 'italic', fontWeight: 400,
@@ -125,7 +122,7 @@ function Method({ darkBg = 'deep' }) {
                   borderBottom: i === months[month].out.length - 1 ? '1px solid rgba(216,228,220,.14)' : 'none',
                   fontFamily: 'var(--font-body)', fontWeight: 300, fontSize: 15, color: 'var(--aq-parchment)',
                 }}>
-                  <span style={{ color: 'var(--aq-teal)', fontFamily: 'var(--font-body)', fontSize: 12, letterSpacing: '0.22em', paddingTop: 3 }}>0{i+1}</span>
+                  <span style={{ color: 'var(--aq-teal)', fontFamily: 'var(--font-body)', fontSize: 12, paddingTop: 3 }}>·</span>
                   <span>{o}</span>
                 </li>
               ))}

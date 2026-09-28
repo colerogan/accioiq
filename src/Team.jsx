@@ -1,6 +1,6 @@
 // Team.jsx
 function Team() {
-  const [active, setActive] = React.useState(1); // Kris default
+  const [active, setActive] = React.useState(0); // Matt default
   const isMobile = useIsMobile();
   const partners = [
     {
@@ -42,25 +42,37 @@ function Team() {
     {
       name: 'Cole Rogan',
       role: 'Associate',
-      short: "Skidmore '26 grad. Built CoachCole — AccioIQ's first product, used by NCAA D1-D3 soccer programs.",
-      bio: "Cole is deeply involved in client engagements at AccioIQ. A May 2026 Skidmore College graduate, he brings over a year of professional AI consulting experience at Selective Insurance — a large insurance company — where he examined internal workflows, built AI agents, and served as a prompt engineer to create tools that have saved teams thousands of hours of repetitive work. Cole also built CoachCole — AccioIQ's first product — an elite NCAA soccer scouting tool actively used by head coaches competing in Divisions 1, 2, and 3. He uses his expertise to contribute to AI solutions that feel clear and native by the time they ship.",
+      short: "Built CoachCole — AccioIQ's first product, used by NCAA D1-D3 soccer programs.",
+      bio: "Cole is deeply involved in client engagements at AccioIQ. He brings professional AI consulting experience at Selective Insurance — a large insurance company — where he examined internal workflows, built AI agents, and served as a prompt engineer to create tools that have saved teams thousands of hours of repetitive work. Cole also built CoachCole — AccioIQ's first product — an elite NCAA soccer scouting tool actively used by head coaches competing in Divisions 1, 2, and 3. He uses his expertise to contribute to AI solutions that feel clear and native by the time they ship.",
       initials: 'CR',
       stats: [
         { n: '1,000s', b: 'Of hours of repetitive work eliminated for teams at Selective Insurance.' },
         { n: 'CoachCole', b: "Built AccioIQ's first product — a scouting tool used across NCAA D1-D3 soccer." },
-        { n: "Skidmore '26", b: 'Recent graduate; over a year of professional AI consulting experience.' },
+        { n: 'AI Consulting', b: 'Professional AI consulting experience at a large insurance company.' },
       ],
     },
     {
       name: 'Anna Hyson',
       role: 'Associate',
-      short: "Skidmore '26 grad. AI sales, content strategy, and workflow design experience across client engagements.",
-      bio: "Anna works across client engagements at AccioIQ, bringing a strong mix of AI, sales, and content strategy experience. With a background in Management & Business from Skidmore College and hands-on experience in AI-powered selling at Skaled Consulting, she has worked across outbound strategy, AI sales workflows, content creation, and podcast production. Her work focuses on turning new AI tools into practical systems that teams can actually use. At AccioIQ, Anna brings that same approach: understanding the client's workflow first, then helping design tools that feel clear, useful, and easy to adopt.",
+      short: "AI sales, content strategy, and workflow design experience across client engagements.",
+      bio: "Anna works across client engagements at AccioIQ, bringing a strong mix of AI, sales, and content strategy experience. With hands-on experience in AI-powered selling at Skaled Consulting, she has worked across outbound strategy, AI sales workflows, content creation, and podcast production. Her work focuses on turning new AI tools into practical systems that teams can actually use. At AccioIQ, Anna brings that same approach: understanding the client's workflow first, then helping design tools that feel clear, useful, and easy to adopt.",
       initials: 'AH',
       stats: [
         { n: 'Skaled', b: 'AI-powered selling experience at Skaled Consulting.' },
         { n: 'AI Sales', b: 'Outbound strategy, AI workflows, content creation, and podcast production.' },
-        { n: "Skidmore '26", b: 'Management & Business graduate.' },
+        { n: 'Strategy', b: 'Background in management, business strategy, and AI-powered sales.' },
+      ],
+    },
+    {
+      name: 'Jazlin Chen',
+      role: 'Associate',
+      short: 'AI workflow engineering, agent development, and startup acceleration experience across client engagements.',
+      bio: 'Jazlin works across client engagements at AccioIQ, helping organizations implement AI through workflow engineering, agent development, and strategic business solutions. She brings impactful experiences spanning startup acceleration, venture capital, and AI consulting. During her time at Startupbootcamp Amsterdam — Europe\'s leading startup accelerator — she worked with early-stage founders exploring AI-driven growth and operational strategy. She has also developed and implemented AI-powered workflow solutions, built custom GPTs, AI applications, and automation tools that streamline business processes. At AccioIQ, Jazlin combines a strategic business perspective with hands-on AI implementation to help clients adopt solutions that are intuitive, scalable, and designed to create lasting value.',
+      initials: 'JC',
+      stats: [
+        { n: 'Startupbootcamp', b: "Europe's leading startup accelerator — AI-driven growth and operational strategy." },
+        { n: 'AI Workflows', b: 'Custom GPTs, AI applications, and automation tools that streamline business processes.' },
+        { n: 'VC & Strategy', b: 'Venture capital and startup acceleration experience.' },
       ],
     },
   ];

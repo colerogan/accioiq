@@ -6,21 +6,18 @@
     const isMobile = useIsMobile();
     const months = [
       {
-        n: "Month 1",
         t: "Executive Alignment",
         sub: "Setting a common AI language and adoption baseline.",
         who: "Executives \xB7 Operating leaders",
         out: ["Shared AI vocabulary", "Baseline adoption audit", "Live priorities mapped to AI leverage"]
       },
       {
-        n: "Month 2",
         t: "Learning Labs",
         sub: "Focused cross-functional teams co-building tools on high-friction workflows.",
         who: "Internal champions \xB7 Workflow owners",
         out: ["2\u20133 working AI assistants", "Prompt libraries per workflow", "Measured time-saved on target tasks"]
       },
       {
-        n: "Month 3",
         t: "All-Hands Upskilling",
         sub: "High-energy workshops led by internal champions to scale capability firm-wide.",
         who: "Full organization \xB7 Champion-led",
@@ -82,13 +79,13 @@
       border: `1px solid ${month === i ? "var(--aq-teal)" : "var(--aq-sage)"}`,
       marginBottom: isMobile ? 0 : 20,
       transition: "background 320ms var(--ease-out)"
-    } }), /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { className: "aq-eyebrow", style: { color: month === i ? "var(--aq-teal)" : "var(--aq-sage)", marginBottom: 4 } }, m.n), /* @__PURE__ */ React.createElement("div", { style: {
+    } }), /* @__PURE__ */ React.createElement("div", { style: {
       fontFamily: "var(--font-display)",
       fontWeight: 400,
       fontSize: isMobile ? 18 : 24,
       color: "var(--aq-parchment)",
       lineHeight: 1.2
-    } }, m.t)))))), /* @__PURE__ */ React.createElement("div", { style: {
+    } }, m.t))))), /* @__PURE__ */ React.createElement("div", { style: {
       marginTop: isMobile ? 32 : 56,
       background: panelBg,
       border: "1px solid rgba(216,228,220,.18)",
@@ -96,7 +93,7 @@
       display: "grid",
       gridTemplateColumns: isMobile ? "1fr" : "1.2fr 1fr",
       gap: isMobile ? 32 : 64
-    } }, /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { className: "aq-eyebrow", style: { color: "var(--aq-teal)", marginBottom: 16 } }, months[month].n, " \xB7 Focus"), /* @__PURE__ */ React.createElement("p", { style: {
+    } }, /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { className: "aq-eyebrow", style: { color: "var(--aq-teal)", marginBottom: 16 } }, "Focus"), /* @__PURE__ */ React.createElement("p", { style: {
       fontFamily: "var(--font-display)",
       fontStyle: "italic",
       fontWeight: 400,
