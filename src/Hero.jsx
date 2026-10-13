@@ -103,13 +103,9 @@ function Hero({ accent = 'teal' }) {
             }}>
               {['Leadership', 'Labs', 'Teams'].map((r, i) => (
                 <li key={r} style={{
-                  display: 'flex', alignItems: 'baseline', gap: 16, padding: '10px 0',
+                  padding: '10px 0',
                   borderBottom: i < 2 ? '1px solid rgba(216,228,220,.12)' : 'none',
                 }}>
-                  <span style={{
-                    fontFamily: 'var(--font-body)', fontSize: 11, fontWeight: 400,
-                    letterSpacing: '0.22em', color: 'var(--aq-teal)', width: 28,
-                  }}>0{i+1}</span>
                   <span style={{ fontStyle: i === 1 ? 'italic' : 'normal' }}>{r}</span>
                 </li>
               ))}

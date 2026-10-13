@@ -109,19 +109,9 @@
       lineHeight: 1.4,
       color: "var(--aq-parchment)"
     } }, ["Leadership", "Labs", "Teams"].map((r, i) => /* @__PURE__ */ React.createElement("li", { key: r, style: {
-      display: "flex",
-      alignItems: "baseline",
-      gap: 16,
       padding: "10px 0",
       borderBottom: i < 2 ? "1px solid rgba(216,228,220,.12)" : "none"
-    } }, /* @__PURE__ */ React.createElement("span", { style: {
-      fontFamily: "var(--font-body)",
-      fontSize: 11,
-      fontWeight: 400,
-      letterSpacing: "0.22em",
-      color: "var(--aq-teal)",
-      width: 28
-    } }, "0", i + 1), /* @__PURE__ */ React.createElement("span", { style: { fontStyle: i === 1 ? "italic" : "normal" } }, r)))))), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 14, flexWrap: "wrap", marginTop: isMobile ? 40 : 64 } }, /* @__PURE__ */ React.createElement(
+    } }, /* @__PURE__ */ React.createElement("span", { style: { fontStyle: i === 1 ? "italic" : "normal" } }, r)))))), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 14, flexWrap: "wrap", marginTop: isMobile ? 40 : 64 } }, /* @__PURE__ */ React.createElement(
       "a",
       {
         href: "#contact",
