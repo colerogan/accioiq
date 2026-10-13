@@ -56,7 +56,7 @@ function Workflows() {
   ];
 
   return (
-    <section style={{ background: 'var(--aq-white)', padding: isMobile ? '72px 20px' : '128px 40px' }}>
+    <section style={{ background: 'var(--aq-rule)', padding: isMobile ? '72px 20px' : '128px 40px' }}>
       <div style={{ maxWidth: 1200, margin: '0 auto' }}>
 
         {/* Header */}
@@ -173,7 +173,7 @@ function Workflows() {
                   transition: 'max-height 480ms var(--ease-out), opacity 320ms var(--ease-out)',
                 }}>
                   <div style={{
-                    background: 'var(--aq-parchment)',
+                    background: 'var(--aq-white)',
                     border: '1px solid var(--aq-rule)',
                     padding: isMobile ? '28px 24px 36px' : '40px 48px 48px',
                     marginBottom: 24,

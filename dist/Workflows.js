@@ -52,7 +52,7 @@
         what_ai: "Scores engine transcripts and quotes the evidence for every score. Audits a page on four gates and names the one defect to fix first. Classifies sources on tier, control, standing, sentiment and access. Merges baseline, defects and sources into one ranked queue of work, cut to what the team can actually publish."
       }
     ];
-    return /* @__PURE__ */ React.createElement("section", { style: { background: "var(--aq-white)", padding: isMobile ? "72px 20px" : "128px 40px" } }, /* @__PURE__ */ React.createElement("div", { style: { maxWidth: 1200, margin: "0 auto" } }, /* @__PURE__ */ React.createElement("div", { style: {
+    return /* @__PURE__ */ React.createElement("section", { style: { background: "var(--aq-rule)", padding: isMobile ? "72px 20px" : "128px 40px" } }, /* @__PURE__ */ React.createElement("div", { style: { maxWidth: 1200, margin: "0 auto" } }, /* @__PURE__ */ React.createElement("div", { style: {
       display: "grid",
       gridTemplateColumns: isMobile ? "1fr" : "1fr 1.4fr",
       gap: isMobile ? 24 : 96,
@@ -160,7 +160,7 @@
       overflow: "hidden",
       transition: "max-height 480ms var(--ease-out), opacity 320ms var(--ease-out)"
     } }, /* @__PURE__ */ React.createElement("div", { style: {
-      background: "var(--aq-parchment)",
+      background: "var(--aq-white)",
       border: "1px solid var(--aq-rule)",
       padding: isMobile ? "28px 24px 36px" : "40px 48px 48px",
       marginBottom: 24,
